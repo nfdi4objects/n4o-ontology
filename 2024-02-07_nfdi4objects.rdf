@@ -1,0 +1,925 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://nfdi4objects.wisski.data.fau.de/ontology/"
+     xml:base="https://nfdi4objects.wisski.data.fau.de/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:nfdi4objects="https://nfdi4objects.wisski.data.fau.de/ontology/">
+    <owl:Ontology rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/">
+        <owl:imports rdf:resource="http://erlangen-crm.org/211015/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://erlangen-crm.org/211015/P140_assigned_attribute_to -->
+
+    <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P140_assigned_attribute_to"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/P140i_was_attributed_by -->
+
+    <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P140i_was_attributed_by"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/P141_assigned -->
+
+    <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P141_assigned"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/P141i_was_assigned_by -->
+
+    <owl:ObjectProperty rdf:about="http://erlangen-crm.org/211015/P141i_was_assigned_by"/>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/assigned_attribute_to_object -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/assigned_attribute_to_object">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P140_assigned_attribute_to"/>
+        <owl:inverseOf rdf:resource="https://nfdi4objects.wisski.data.fau.de/ontology/object_was_attributed_by"/>
+        <rdfs:range rdf:resource="https://nfdi4objects.wisski.data.fau.de/ontology/Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/assigned_objectattribute_or_context -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/assigned_objectattribute_or_context">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P141_assigned"/>
+        <owl:inverseOf rdf:resource="https://nfdi4objects.wisski.data.fau.de/ontology/was_assigned_objectattribute_or_context_by"/>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/211015/E5_Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/object_was_attributed_by -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/object_was_attributed_by">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P140i_was_attributed_by"/>
+        <rdfs:domain rdf:resource="https://nfdi4objects.wisski.data.fau.de/ontology/Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/was_assigned_objectattribute_or_context_by -->
+
+    <owl:ObjectProperty rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/was_assigned_objectattribute_or_context_by">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P141i_was_assigned_by"/>
+        <rdfs:domain rdf:resource="http://erlangen-crm.org/211015/E5_Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://erlangen-crm.org/211015/P3_has_note -->
+
+    <owl:DatatypeProperty rdf:about="http://erlangen-crm.org/211015/P3_has_note"/>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/has_earliest_start -->
+
+    <owl:DatatypeProperty rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/has_earliest_start">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P3_has_note"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/has_latest_end -->
+
+    <owl:DatatypeProperty rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/has_latest_end">
+        <rdfs:subPropertyOf rdf:resource="http://erlangen-crm.org/211015/P3_has_note"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E10_Transfer_of_Custody -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E10_Transfer_of_Custody"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E11_Modification -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E11_Modification"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E13_Attribute_Assignment -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E17_Type_Assignment -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E17_Type_Assignment"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E22_Human-Made_Object -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E22_Human-Made_Object"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E30_Right -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E30_Right"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E31_Document -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E31_Document"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E32_Authority_Document -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E32_Authority_Document"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E35_Title -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E35_Title"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E36_Visual_Item -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E36_Visual_Item"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E42_Identifier -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E42_Identifier"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E4_Period -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E4_Period"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E53_Place -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E53_Place"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E55_Type -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E55_Type"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E5_Event -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E5_Event"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E63_Beginning_of_Existence -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E63_Beginning_of_Existence"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E65_Creation -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E65_Creation"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E73_Information_Object -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E74_Group -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E74_Group"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E7_Activity -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E7_Activity"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E87_Curation_Activity -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E87_Curation_Activity"/>
+    
+
+
+    <!-- http://erlangen-crm.org/211015/E9_Move -->
+
+    <owl:Class rdf:about="http://erlangen-crm.org/211015/E9_Move"/>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Accession -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Accession">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E10_Transfer_of_Custody"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E17_Type_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Acquisition_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Acquisition_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Activity_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Activity_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Alternative_Title -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Alternative_Title">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E35_Title"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Appellation_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Appellation_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E10_Transfer_of_Custody"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Audiofile -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Audiofile">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E32_Authority_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile_ID -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile_ID">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E17_Type_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Comment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Comment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Commissioning -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Commissioning">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Corporate_Body -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Corporate_Body">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E74_Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Deaccession -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Deaccession">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E10_Transfer_of_Custody"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Description -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Description">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Dimension_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Dimension_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+        <rdfs:comment>Equals S19 Encounter Event in CRMArchaeo</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Environment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Environment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E27_Site"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Environmental_Affiliation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Environmental_Affiliation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E5_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Excavation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Excavation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E87_Curation_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Existence -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Existence">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E5_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Expedition -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Expedition">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Field_Work -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Field_Work">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/File -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/File">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Finding -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Finding">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Foundation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Foundation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E63_Beginning_of_Existence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Geo_Coordinates -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Geo_Coordinates">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Geographical_Place -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Geographical_Place">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Global_Stratigraphic_Period -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Global_Stratigraphic_Period">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E4_Period"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Iconographic_Motive -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Iconographic_Motive">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E36_Visual_Item"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Iconography_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Iconography_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Identifier -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Identifier">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Image -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Image">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E36_Visual_Item"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Inventory_Number -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Inventory_Number">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Keyword -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Keyword">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Licence -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Licence">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E30_Right"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Licence_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Licence_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section_ID -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section_ID">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Local_Stratigraphic_Period -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Local_Stratigraphic_Period">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E4_Period"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Location -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Location">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E53_Place"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Location_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Location_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Material_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Material_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E5_Event"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Object -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E22_Human-Made_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/ObjectType_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/ObjectType_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E17_Type_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Object_Condition_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object_Condition_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Object_Transport -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object_Transport">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E9_Move"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Object_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Occupation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Occupation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Photography -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Photography">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E65_Creation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Preparation -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Preparation">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E11_Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Presentation_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Presentation_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Restoration -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Restoration">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E11_Modification"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E63_Beginning_of_Existence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Society_of_Origin -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Society_of_Origin">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E74_Group"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Source -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Source">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E22_Human-Made_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Stratigraphic_Period_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Stratigraphic_Period_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Systematization -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Systematization">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E87_Curation_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E13_Attribute_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Transcription -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Transcription">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E31_Document"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/URL -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/URL">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E42_Identifier"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Usage -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Usage">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E7_Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/UsageType_Assignment -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/UsageType_Assignment">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E17_Type_Assignment"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Usage_Type -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Usage_Type">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E55_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Videofile -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Videofile">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/3D_Model -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/3D_Model">
+        <rdfs:subClassOf rdf:resource="http://erlangen-crm.org/211015/E73_Information_Object"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
