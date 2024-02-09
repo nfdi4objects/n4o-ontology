@@ -30,11 +30,11 @@ jobs:
          sudo apt-get install gcc libpq-dev -y
          sudo apt-get install python3-dev python3-pip -y
          sudo apt-get install python3-venv python3-wheel -y
-         sudo pip3 install wheel pylode rdflib
+         sudo pip3 install wheel pylode==2.13.2 rdflib
          mkdir docs
          cd docs
          echo "Generating documentation for Core ontology"
-         python3 -m pylode -o index.html ../core_ontology/2024-02-07_nfdi4objects.rdf
+         pylode -i ../core_ontology/2024-02-07_nfdi4objects.rdf -o index.html
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
