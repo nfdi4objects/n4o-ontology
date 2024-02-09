@@ -34,7 +34,7 @@ jobs:
          mkdir docs
          cd docs
          echo "Generating documentation for Core ontology"
-         pylode -i ../core_ontology/2024-02-07_nfdi4objects.rdf -o index.html
+         python3 -m pylode -o index.html ../core_ontology/2024-02-07_nfdi4objects.rdf
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
