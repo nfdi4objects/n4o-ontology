@@ -1,0 +1,2607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{no title found}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <style>
+        #pylode {
+            position: fixed;
+            top: 130px;
+            left: -60px;
+            font-size: small;
+            transform: rotate(-90deg);
+            color: grey;
+        }
+        #pylode a {
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #005A9C;
+        }
+        #pylode a:hover {
+            color: #333;
+        }
+
+        .cardinality {
+            font-style: italic;
+            color: #aa00aa;
+        }
+
+        dt {
+            font-weight: bold;
+            padding: 5px 0 5px 0;
+        }
+
+        ul.hlist {
+            list-style-type: none;
+            border: 1px solid navy;
+            padding:5px;
+            background-color: #F4FFFF;
+        }
+
+        ul.hierarchy {
+            border: 1px solid navy;
+            padding: 5px 25px 5px 25px;
+            background-color: #F4FFFF;
+        }
+
+
+        ul.hlist li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .entity {
+            border: 1px solid navy;
+            margin:5px 0 5px 0;
+            padding: 5px;
+        }
+
+        .entity th {
+            width: 150px;
+            vertical-align: top;
+        }
+
+        .entity th,
+        .entity td {
+            padding-bottom: 20px;
+        }
+
+        .entity table th {
+            text-align: left;
+        }
+
+        section#overview img {
+            max-width: 1000px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: left
+        }
+        h1, h2, h3 {
+            color: #005A9C; background: white
+        }
+        h1 {
+            font: 170% sans-serif;
+            line-height: 110%;
+        }
+        h2 {
+            font: 140% sans-serif;
+            margin-top:40px;
+        }
+        h3 {
+            font: 120% sans-serif;
+            margin-top: 3px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid navy;
+        }
+        h4 { font: bold 100% sans-serif }
+        h5 { font: italic 100% sans-serif }
+        h6 { font: small-caps 100% sans-serif }
+
+
+        body {
+            padding: 2em 70px 2em 70px;
+            margin: 0;
+            font-family: sans-serif;
+            color: black;
+            background: white;
+            background-position: top left;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            text-align: justify;
+        }
+
+        section {
+            max-width: 1500px;
+        }
+
+        .figure {
+            margin-bottom: 20px;
+        }
+
+        :link { color: #00C; background: transparent }
+        :visited { color: #609; background: transparent }
+        a:active { color: #C00; background: transparent }
+
+        .sup-c,
+        .sup-op,
+        .sup-fp,
+        .sup-dp,
+        .sup-ap,
+        .sup-p,
+        .sup-ni,
+        .sup-con,
+        .sup-col {
+            cursor:help;
+            margin-left: 3px;
+        }
+
+        .sup-c {
+            color:orange;
+        }
+
+        .sup-op {
+            color:navy;
+        }
+
+        .sup-fp {
+            color:lightskyblue;
+        }
+
+        .sup-dp {
+            color:green;
+        }
+
+        .sup-ap {
+            color:darkred;
+        }
+
+        .sup-p {
+            color:black;
+        }
+
+        .sup-ni {
+            color:brown;
+        }
+
+        .sup-con {
+            color:orange;
+        }
+
+        .sup-col {
+            color:darkred;
+        }
+
+        code {
+            font-size: large;
+            color: darkred;
+        }
+
+        /* less prominent links for properties */
+        .proplink {
+            color: #336;
+            text-decoration: none;
+        }
+    </style>
+    
+    <script type="application/ld+json">
+      [
+  {
+    "@id": "https://nfdi4objects.wisski.data.fau.de/ontology/",
+    "@type": [
+      "https://schema.org/DefinedTermSet"
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "{no title found}"
+      }
+    ]
+  }
+]
+    </script>
+</head>
+<body>
+  <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
+    <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
+    <span style="font-size:smaller;">2.13.2</span>
+  </div>
+  <h1>{no title found}</h1>
+<section id="metadata">
+    <h2 style="display:none;">Metadata</h2>
+    <dl>
+        <dt>URI</dt>
+        <dd><code>https://nfdi4objects.wisski.data.fau.de/ontology/</code></dd>
+        <dt>Imports</dt>
+        <dd>
+            <a href="http://erlangen-crm.org/211015/">http://erlangen-crm.org/211015/</a><br/>
+        </dd>
+        <dt>Ontology RDF</dt>
+        <dd><a href="2024-02-07_nfdi4objects.rdf">RDF (xml)</a></dd>
+    </dl>
+</section>
+<section id="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#objectproperties">Object Properties</a></li>
+        <li><a href="#datatypeproperties">Datatype Properties</a></li>
+        <li><a href="#namespaces">Namespaces</a></li>
+        <li><a href="#legend">Legend</a></li>
+    </ol>
+</section>
+<section id="overview">
+    <h2>Overview</h2>
+    <div class="figure">
+        <div style="width:500px; height:50px; background-color: lightgrey; border:solid 2px grey; padding:10px;margin-bottom:5px; text-align:center;">Pictures say 1,000 words</div>
+        <div class="caption"><strong>Figure 1:</strong> Ontology overview</div>
+    </div>
+</section>
+  <section id="classes">
+    <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+      <li><a href="http://erlangen-crm.org/211015/E10_Transfer_of_Custody">http://erlangen-crm.org/211015/E10_Transfer_of_Custody</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E11_Modification">http://erlangen-crm.org/211015/E11_Modification</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E17_Type_Assignment">http://erlangen-crm.org/211015/E17_Type_Assignment</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E22_Human-Made_Object">http://erlangen-crm.org/211015/E22_Human-Made_Object</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E30_Right">http://erlangen-crm.org/211015/E30_Right</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E31_Document">http://erlangen-crm.org/211015/E31_Document</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E32_Authority_Document">http://erlangen-crm.org/211015/E32_Authority_Document</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E35_Title">http://erlangen-crm.org/211015/E35_Title</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E36_Visual_Item">http://erlangen-crm.org/211015/E36_Visual_Item</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E4_Period">http://erlangen-crm.org/211015/E4_Period</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E53_Place">http://erlangen-crm.org/211015/E53_Place</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E5_Event">http://erlangen-crm.org/211015/E5_Event</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E63_Beginning_of_Existence">http://erlangen-crm.org/211015/E63_Beginning_of_Existence</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E65_Creation">http://erlangen-crm.org/211015/E65_Creation</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E74_Group">http://erlangen-crm.org/211015/E74_Group</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E87_Curation_Activity">http://erlangen-crm.org/211015/E87_Curation_Activity</a></li>
+      <li><a href="http://erlangen-crm.org/211015/E9_Move">http://erlangen-crm.org/211015/E9_Move</a></li>
+      <li><a href="#3D_Model">3D_Model</a></li>
+      <li><a href="#Accession">Accession</a></li>
+      <li><a href="#AcquisitionType_Assignment">AcquisitionType_Assignment</a></li>
+      <li><a href="#Acquisition_Type">Acquisition_Type</a></li>
+      <li><a href="#Activity_Type">Activity_Type</a></li>
+      <li><a href="#Actor_Assignment">Actor_Assignment</a></li>
+      <li><a href="#Alternative_Title">Alternative_Title</a></li>
+      <li><a href="#Appellation_Assignment">Appellation_Assignment</a></li>
+      <li><a href="#Appropriation">Appropriation</a></li>
+      <li><a href="#Appropriation_Type">Appropriation_Type</a></li>
+      <li><a href="#Audiofile">Audiofile</a></li>
+      <li><a href="#Authorityfile">Authorityfile</a></li>
+      <li><a href="#Authorityfile_ID">Authorityfile_ID</a></li>
+      <li><a href="#Collectionsystematics">Collectionsystematics</a></li>
+      <li><a href="#Collectionsystematics_Assignment">Collectionsystematics_Assignment</a></li>
+      <li><a href="#Comment">Comment</a></li>
+      <li><a href="#Commissioning">Commissioning</a></li>
+      <li><a href="#Corporate_Body">Corporate_Body</a></li>
+      <li><a href="#Deaccession">Deaccession</a></li>
+      <li><a href="#Description">Description</a></li>
+      <li><a href="#Dimension_Type">Dimension_Type</a></li>
+      <li><a href="#Encounter_Event">Encounter_Event</a></li>
+      <li><a href="#Environment">Environment</a></li>
+      <li><a href="#Environmental_Affiliation">Environmental_Affiliation</a></li>
+      <li><a href="#Excavation">Excavation</a></li>
+      <li><a href="#Exhibition">Exhibition</a></li>
+      <li><a href="#Exhibition_Type">Exhibition_Type</a></li>
+      <li><a href="#Existence">Existence</a></li>
+      <li><a href="#Expedition">Expedition</a></li>
+      <li><a href="#Field_Work">Field_Work</a></li>
+      <li><a href="#File">File</a></li>
+      <li><a href="#Finding">Finding</a></li>
+      <li><a href="#Foundation">Foundation</a></li>
+      <li><a href="#Geo_Coordinates">Geo_Coordinates</a></li>
+      <li><a href="#Geographical_Place">Geographical_Place</a></li>
+      <li><a href="#Global_Stratigraphic_Period">Global_Stratigraphic_Period</a></li>
+      <li><a href="#Iconographic_Motive">Iconographic_Motive</a></li>
+      <li><a href="#Iconography_Assignment">Iconography_Assignment</a></li>
+      <li><a href="#Identifier">Identifier</a></li>
+      <li><a href="#Image">Image</a></li>
+      <li><a href="#Inventory_Number">Inventory_Number</a></li>
+      <li><a href="#Keyword">Keyword</a></li>
+      <li><a href="#Licence">Licence</a></li>
+      <li><a href="#Licence_Type">Licence_Type</a></li>
+      <li><a href="#Literature">Literature</a></li>
+      <li><a href="#Literature_Section">Literature_Section</a></li>
+      <li><a href="#Literature_Section_ID">Literature_Section_ID</a></li>
+      <li><a href="#Literature_Type">Literature_Type</a></li>
+      <li><a href="#Local_Stratigraphic_Period">Local_Stratigraphic_Period</a></li>
+      <li><a href="#Location">Location</a></li>
+      <li><a href="#Location_Type">Location_Type</a></li>
+      <li><a href="#Material_Assignment">Material_Assignment</a></li>
+      <li><a href="#Museum_or_Collection_Affiliation">Museum_or_Collection_Affiliation</a></li>
+      <li><a href="#Object">Object</a></li>
+      <li><a href="#ObjectType_Assignment">ObjectType_Assignment</a></li>
+      <li><a href="#Object_Condition_Type">Object_Condition_Type</a></li>
+      <li><a href="#Object_Documentation">Object_Documentation</a></li>
+      <li><a href="#Object_Transport">Object_Transport</a></li>
+      <li><a href="#Object_Type">Object_Type</a></li>
+      <li><a href="#Occupation">Occupation</a></li>
+      <li><a href="#Photography">Photography</a></li>
+      <li><a href="#Place_Assignment">Place_Assignment</a></li>
+      <li><a href="#Preparation">Preparation</a></li>
+      <li><a href="#Presentation_Type">Presentation_Type</a></li>
+      <li><a href="#Research_Activity">Research_Activity</a></li>
+      <li><a href="#Research_Activity_Type">Research_Activity_Type</a></li>
+      <li><a href="#Restoration">Restoration</a></li>
+      <li><a href="#Rock_Genesis">Rock_Genesis</a></li>
+      <li><a href="#Society_of_Origin">Society_of_Origin</a></li>
+      <li><a href="#Source">Source</a></li>
+      <li><a href="#Source_Content">Source_Content</a></li>
+      <li><a href="#Source_Content_Section">Source_Content_Section</a></li>
+      <li><a href="#Source_Content_Type">Source_Content_Type</a></li>
+      <li><a href="#Stratigraphic_Period_Assignment">Stratigraphic_Period_Assignment</a></li>
+      <li><a href="#Systematization">Systematization</a></li>
+      <li><a href="#Time_Assignment">Time_Assignment</a></li>
+      <li><a href="#Transcription">Transcription</a></li>
+      <li><a href="#URL">URL</a></li>
+      <li><a href="#Usage">Usage</a></li>
+      <li><a href="#UsageType_Assignment">UsageType_Assignment</a></li>
+      <li><a href="#Usage_Type">Usage_Type</a></li>
+      <li><a href="#Videofile">Videofile</a></li>
+    </ul>
+    <div class="entity class" id="E10_Transfer_of_Custody">
+        <h3>
+          E10_Transfer_of_Custody<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E10_Transfer_of_Custody" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E10_Transfer_of_Custody</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Appropriation">Appropriation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Deaccession">Deaccession</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Accession">Accession</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E11_Modification">
+        <h3>
+          E11_Modification<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E11_Modification" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E11_Modification</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Preparation">Preparation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Restoration">Restoration</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E13_Attribute_Assignment">
+        <h3>
+          E13_Attribute_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E13_Attribute_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E13_Attribute_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Material_Assignment">Material_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Stratigraphic_Period_Assignment">Stratigraphic_Period_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Actor_Assignment">Actor_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Time_Assignment">Time_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Iconography_Assignment">Iconography_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Appellation_Assignment">Appellation_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Place_Assignment">Place_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E17_Type_Assignment">
+        <h3>
+          E17_Type_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E17_Type_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E17_Type_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#AcquisitionType_Assignment">AcquisitionType_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#ObjectType_Assignment">ObjectType_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Collectionsystematics_Assignment">Collectionsystematics_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#UsageType_Assignment">UsageType_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E22_Human-Made_Object">
+        <h3>
+          E22_Human-Made_Object<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E22_Human-Made_Object" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E22_Human-Made_Object</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Object">Object</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Source">Source</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E30_Right">
+        <h3>
+          E30_Right<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E30_Right" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E30_Right</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Licence">Licence</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E31_Document">
+        <h3>
+          E31_Document<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E31_Document" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E31_Document</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Literature">Literature</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Description">Description</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Transcription">Transcription</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Literature_Section">Literature_Section</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Comment">Comment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E32_Authority_Document">
+        <h3>
+          E32_Authority_Document<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E32_Authority_Document" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E32_Authority_Document</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Authorityfile">Authorityfile</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E35_Title">
+        <h3>
+          E35_Title<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E35_Title" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E35_Title</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Alternative_Title">Alternative_Title</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E36_Visual_Item">
+        <h3>
+          E36_Visual_Item<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E36_Visual_Item" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E36_Visual_Item</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Image">Image</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Iconographic_Motive">Iconographic_Motive</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E42_Identifier">
+        <h3>
+          E42_Identifier<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E42_Identifier" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E42_Identifier</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#URL">URL</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Inventory_Number">Inventory_Number</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Identifier">Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Authorityfile_ID">Authorityfile_ID</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Literature_Section_ID">Literature_Section_ID</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Geo_Coordinates">Geo_Coordinates</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E4_Period">
+        <h3>
+          E4_Period<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E4_Period" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E4_Period</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Local_Stratigraphic_Period">Local_Stratigraphic_Period</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Global_Stratigraphic_Period">Global_Stratigraphic_Period</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E53_Place">
+        <h3>
+          E53_Place<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E53_Place" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E53_Place</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Geographical_Place">Geographical_Place</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Location">Location</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E55_Type">
+        <h3>
+          E55_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E55_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E55_Type</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Object_Type">Object_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Exhibition_Type">Exhibition_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Collectionsystematics">Collectionsystematics</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Keyword">Keyword</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Activity_Type">Activity_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Occupation">Occupation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Dimension_Type">Dimension_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Object_Condition_Type">Object_Condition_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Research_Activity_Type">Research_Activity_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Appropriation_Type">Appropriation_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Location_Type">Location_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Acquisition_Type">Acquisition_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Presentation_Type">Presentation_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Literature_Type">Literature_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Source_Content_Type">Source_Content_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Usage_Type">Usage_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Licence_Type">Licence_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E5_Event">
+        <h3>
+          E5_Event<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E5_Event" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E5_Event</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Environmental_Affiliation">Environmental_Affiliation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Museum_or_Collection_Affiliation">Museum_or_Collection_Affiliation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Existence">Existence</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="#was_assigned_objectattribute_or_context_by">was_assigned_objectattribute_or_context_by</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="#assigned_objectattribute_or_context">assigned_objectattribute_or_context</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E63_Beginning_of_Existence">
+        <h3>
+          E63_Beginning_of_Existence<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E63_Beginning_of_Existence" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E63_Beginning_of_Existence</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Foundation">Foundation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Rock_Genesis">Rock_Genesis</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E65_Creation">
+        <h3>
+          E65_Creation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E65_Creation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E65_Creation</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Photography">Photography</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E73_Information_Object">
+        <h3>
+          E73_Information_Object<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E73_Information_Object" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E73_Information_Object</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#3D_Model">3D_Model</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Videofile">Videofile</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Finding">Finding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#File">File</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Source_Content_Section">Source_Content_Section</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Source_Content">Source_Content</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Audiofile">Audiofile</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E74_Group">
+        <h3>
+          E74_Group<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E74_Group" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E74_Group</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Corporate_Body">Corporate_Body</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Society_of_Origin">Society_of_Origin</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E7_Activity">
+        <h3>
+          E7_Activity<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E7_Activity" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E7_Activity</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Usage">Usage</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Expedition">Expedition</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Excavation">Excavation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Encounter_Event">Encounter_Event</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Research_Activity">Research_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Field_Work">Field_Work</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Object_Documentation">Object_Documentation</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Commissioning">Commissioning</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E87_Curation_Activity">
+        <h3>
+          E87_Curation_Activity<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E87_Curation_Activity" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E87_Curation_Activity</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Exhibition">Exhibition</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="#Systematization">Systematization</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="E9_Move">
+        <h3>
+          E9_Move<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#E9_Move" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/E9_Move</code></td>
+            </tr>
+            <tr>
+                <th>Sub-classes</th>
+                <td>
+                    <a href="#Object_Transport">Object_Transport</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="3D_Model">
+        <h3>
+          3D_Model<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#3D_Model" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/3D_Model</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Accession">
+        <h3>
+          Accession<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Accession" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Accession</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E10_Transfer_of_Custody">http://erlangen-crm.org/211015/E10_Transfer_of_Custody</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="AcquisitionType_Assignment">
+        <h3>
+          AcquisitionType_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#AcquisitionType_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E17_Type_Assignment">http://erlangen-crm.org/211015/E17_Type_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Acquisition_Type">
+        <h3>
+          Acquisition_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Acquisition_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Acquisition_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Activity_Type">
+        <h3>
+          Activity_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Activity_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Activity_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Actor_Assignment">
+        <h3>
+          Actor_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actor_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Alternative_Title">
+        <h3>
+          Alternative_Title<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Alternative_Title" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Alternative_Title</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E35_Title">http://erlangen-crm.org/211015/E35_Title</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Appellation_Assignment">
+        <h3>
+          Appellation_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Appellation_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Appellation_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Appropriation">
+        <h3>
+          Appropriation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Appropriation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E10_Transfer_of_Custody">http://erlangen-crm.org/211015/E10_Transfer_of_Custody</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Appropriation_Type">
+        <h3>
+          Appropriation_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Appropriation_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Audiofile">
+        <h3>
+          Audiofile<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Audiofile" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Audiofile</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Authorityfile">
+        <h3>
+          Authorityfile<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Authorityfile" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E32_Authority_Document">http://erlangen-crm.org/211015/E32_Authority_Document</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Authorityfile_ID">
+        <h3>
+          Authorityfile_ID<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Authorityfile_ID" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile_ID</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Collectionsystematics">
+        <h3>
+          Collectionsystematics<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Collectionsystematics" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Collectionsystematics_Assignment">
+        <h3>
+          Collectionsystematics_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Collectionsystematics_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E17_Type_Assignment">http://erlangen-crm.org/211015/E17_Type_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Comment">
+        <h3>
+          Comment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Comment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Comment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E31_Document">http://erlangen-crm.org/211015/E31_Document</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Commissioning">
+        <h3>
+          Commissioning<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Commissioning" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Commissioning</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Corporate_Body">
+        <h3>
+          Corporate_Body<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Corporate_Body" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Corporate_Body</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E74_Group">http://erlangen-crm.org/211015/E74_Group</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Deaccession">
+        <h3>
+          Deaccession<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Deaccession" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Deaccession</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E10_Transfer_of_Custody">http://erlangen-crm.org/211015/E10_Transfer_of_Custody</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Description">
+        <h3>
+          Description<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Description" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Description</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E31_Document">http://erlangen-crm.org/211015/E31_Document</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Dimension_Type">
+        <h3>
+          Dimension_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Dimension_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Dimension_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Encounter_Event">
+        <h3>
+          Encounter_Event<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Encounter_Event" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    <p>Equals S19 Encounter Event in CRMArchaeo</p>
+                </td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Environment">
+        <h3>
+          Environment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Environment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Environment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E27_Site">http://erlangen-crm.org/211015/E27_Site</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Environmental_Affiliation">
+        <h3>
+          Environmental_Affiliation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Environmental_Affiliation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Environmental_Affiliation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E5_Event">http://erlangen-crm.org/211015/E5_Event</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Excavation">
+        <h3>
+          Excavation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Excavation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Excavation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Exhibition">
+        <h3>
+          Exhibition<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Exhibition" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E87_Curation_Activity">http://erlangen-crm.org/211015/E87_Curation_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Exhibition_Type">
+        <h3>
+          Exhibition_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Exhibition_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Existence">
+        <h3>
+          Existence<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Existence" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Existence</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E5_Event">http://erlangen-crm.org/211015/E5_Event</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Expedition">
+        <h3>
+          Expedition<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Expedition" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Expedition</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Field_Work">
+        <h3>
+          Field_Work<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Field_Work" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Field_Work</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="File">
+        <h3>
+          File<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#File" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/File</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Finding">
+        <h3>
+          Finding<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Finding" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Finding</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Foundation">
+        <h3>
+          Foundation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Foundation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Foundation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E63_Beginning_of_Existence">http://erlangen-crm.org/211015/E63_Beginning_of_Existence</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Geo_Coordinates">
+        <h3>
+          Geo_Coordinates<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Geo_Coordinates" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Geo_Coordinates</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Geographical_Place">
+        <h3>
+          Geographical_Place<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Geographical_Place" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Geographical_Place</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E53_Place">http://erlangen-crm.org/211015/E53_Place</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Global_Stratigraphic_Period">
+        <h3>
+          Global_Stratigraphic_Period<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Global_Stratigraphic_Period" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Global_Stratigraphic_Period</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E4_Period">http://erlangen-crm.org/211015/E4_Period</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Iconographic_Motive">
+        <h3>
+          Iconographic_Motive<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Iconographic_Motive" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Iconographic_Motive</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E36_Visual_Item">http://erlangen-crm.org/211015/E36_Visual_Item</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Iconography_Assignment">
+        <h3>
+          Iconography_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Iconography_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Iconography_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Identifier">
+        <h3>
+          Identifier<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Identifier" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Identifier</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Image">
+        <h3>
+          Image<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Image" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Image</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E36_Visual_Item">http://erlangen-crm.org/211015/E36_Visual_Item</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Inventory_Number">
+        <h3>
+          Inventory_Number<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Inventory_Number" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Inventory_Number</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Keyword">
+        <h3>
+          Keyword<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Keyword" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Keyword</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Licence">
+        <h3>
+          Licence<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Licence" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Licence</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E30_Right">http://erlangen-crm.org/211015/E30_Right</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Licence_Type">
+        <h3>
+          Licence_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Licence_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Licence_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Literature">
+        <h3>
+          Literature<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Literature" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Literature</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E31_Document">http://erlangen-crm.org/211015/E31_Document</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Literature_Section">
+        <h3>
+          Literature_Section<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Literature_Section" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E31_Document">http://erlangen-crm.org/211015/E31_Document</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Literature_Section_ID">
+        <h3>
+          Literature_Section_ID<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Literature_Section_ID" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section_ID</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Literature_Type">
+        <h3>
+          Literature_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Literature_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Local_Stratigraphic_Period">
+        <h3>
+          Local_Stratigraphic_Period<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Local_Stratigraphic_Period" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Local_Stratigraphic_Period</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E4_Period">http://erlangen-crm.org/211015/E4_Period</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Location">
+        <h3>
+          Location<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Location" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Location</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E53_Place">http://erlangen-crm.org/211015/E53_Place</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Location_Type">
+        <h3>
+          Location_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Location_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Location_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Material_Assignment">
+        <h3>
+          Material_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Material_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Material_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Museum_or_Collection_Affiliation">
+        <h3>
+          Museum_or_Collection_Affiliation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Museum_or_Collection_Affiliation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E5_Event">http://erlangen-crm.org/211015/E5_Event</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Object">
+        <h3>
+          Object<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Object" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Object</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E22_Human-Made_Object">http://erlangen-crm.org/211015/E22_Human-Made_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In domain of</th>
+                <td>
+                    <a href="#object_was_attributed_by">object_was_attributed_by</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+            <tr>
+                <th>In range of</th>
+                <td>
+                    <a href="#assigned_attribute_to_object">assigned_attribute_to_object</a><sup class="sup-op" title="object property">op</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="ObjectType_Assignment">
+        <h3>
+          ObjectType_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#ObjectType_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/ObjectType_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E17_Type_Assignment">http://erlangen-crm.org/211015/E17_Type_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Object_Condition_Type">
+        <h3>
+          Object_Condition_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Object_Condition_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Condition_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Object_Documentation">
+        <h3>
+          Object_Documentation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Object_Documentation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Object_Transport">
+        <h3>
+          Object_Transport<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Object_Transport" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Transport</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E9_Move">http://erlangen-crm.org/211015/E9_Move</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Object_Type">
+        <h3>
+          Object_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Object_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Occupation">
+        <h3>
+          Occupation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Occupation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Occupation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Photography">
+        <h3>
+          Photography<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Photography" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Photography</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E65_Creation">http://erlangen-crm.org/211015/E65_Creation</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Place_Assignment">
+        <h3>
+          Place_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Place_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Preparation">
+        <h3>
+          Preparation<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Preparation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Preparation</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E11_Modification">http://erlangen-crm.org/211015/E11_Modification</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Presentation_Type">
+        <h3>
+          Presentation_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Presentation_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Presentation_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Research_Activity">
+        <h3>
+          Research_Activity<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Research_Activity" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Research_Activity_Type">
+        <h3>
+          Research_Activity_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Research_Activity_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Restoration">
+        <h3>
+          Restoration<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Restoration" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Restoration</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E11_Modification">http://erlangen-crm.org/211015/E11_Modification</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Rock_Genesis">
+        <h3>
+          Rock_Genesis<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Rock_Genesis" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E63_Beginning_of_Existence">http://erlangen-crm.org/211015/E63_Beginning_of_Existence</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Society_of_Origin">
+        <h3>
+          Society_of_Origin<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Society_of_Origin" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Society_of_Origin</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E74_Group">http://erlangen-crm.org/211015/E74_Group</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Source">
+        <h3>
+          Source<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Source" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Source</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E22_Human-Made_Object">http://erlangen-crm.org/211015/E22_Human-Made_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Source_Content">
+        <h3>
+          Source_Content<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Source_Content" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Source_Content_Section">
+        <h3>
+          Source_Content_Section<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Source_Content_Section" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Source_Content_Type">
+        <h3>
+          Source_Content_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Source_Content_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Stratigraphic_Period_Assignment">
+        <h3>
+          Stratigraphic_Period_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Stratigraphic_Period_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Stratigraphic_Period_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Systematization">
+        <h3>
+          Systematization<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Systematization" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Systematization</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E87_Curation_Activity">http://erlangen-crm.org/211015/E87_Curation_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Time_Assignment">
+        <h3>
+          Time_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Time_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E13_Attribute_Assignment">http://erlangen-crm.org/211015/E13_Attribute_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Transcription">
+        <h3>
+          Transcription<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Transcription" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Transcription</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E31_Document">http://erlangen-crm.org/211015/E31_Document</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="URL">
+        <h3>
+          URL<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#URL" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/URL</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E42_Identifier">http://erlangen-crm.org/211015/E42_Identifier</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Usage">
+        <h3>
+          Usage<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Usage" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Usage</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E7_Activity">http://erlangen-crm.org/211015/E7_Activity</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="UsageType_Assignment">
+        <h3>
+          UsageType_Assignment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#UsageType_Assignment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/UsageType_Assignment</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E17_Type_Assignment">http://erlangen-crm.org/211015/E17_Type_Assignment</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Usage_Type">
+        <h3>
+          Usage_Type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Usage_Type" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Usage_Type</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E55_Type">http://erlangen-crm.org/211015/E55_Type</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity class" id="Videofile">
+        <h3>
+          Videofile<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Videofile" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/Videofile</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E73_Information_Object">http://erlangen-crm.org/211015/E73_Information_Object</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section id="objectproperties">
+    <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#P140_assigned_attribute_to">P140_assigned_attribute_to</a></li>
+        <li><a href="#P140i_was_attributed_by">P140i_was_attributed_by</a></li>
+        <li><a href="#P141_assigned">P141_assigned</a></li>
+        <li><a href="#P141i_was_assigned_by">P141i_was_assigned_by</a></li>
+        <li><a href="#assigned_attribute_to_object">assigned_attribute_to_object</a></li>
+        <li><a href="#assigned_objectattribute_or_context">assigned_objectattribute_or_context</a></li>
+        <li><a href="#object_was_attributed_by">object_was_attributed_by</a></li>
+        <li><a href="#was_assigned_objectattribute_or_context_by">was_assigned_objectattribute_or_context_by</a></li>
+    </ul>
+    <div class="entity property" id="P140_assigned_attribute_to">
+        <h3>P140_assigned_attribute_to<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#P140_assigned_attribute_to" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/P140_assigned_attribute_to</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="P140i_was_attributed_by">
+        <h3>P140i_was_attributed_by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#P140i_was_attributed_by" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/P140i_was_attributed_by</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="P141_assigned">
+        <h3>P141_assigned<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#P141_assigned" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/P141_assigned</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="P141i_was_assigned_by">
+        <h3>P141i_was_assigned_by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#P141i_was_assigned_by" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/P141i_was_assigned_by</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="assigned_attribute_to_object">
+        <h3>assigned_attribute_to_object<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#assigned_attribute_to_object" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/assigned_attribute_to_object</code></td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/P140_assigned_attribute_to">http://erlangen-crm.org/211015/P140_assigned_attribute_to</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#object_was_attributed_by">object_was_attributed_by</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="https://nfdi4objects.wisski.data.fau.de/ontology/Object">Object</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="assigned_objectattribute_or_context">
+        <h3>assigned_objectattribute_or_context<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#assigned_objectattribute_or_context" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/assigned_objectattribute_or_context</code></td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/P141_assigned">http://erlangen-crm.org/211015/P141_assigned</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Inverse properties</th>
+                <td>
+                    <a href="#was_assigned_objectattribute_or_context_by">was_assigned_objectattribute_or_context_by</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E5_Event">http://erlangen-crm.org/211015/E5_Event</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="object_was_attributed_by">
+        <h3>object_was_attributed_by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#object_was_attributed_by" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/object_was_attributed_by</code></td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/P140i_was_attributed_by">http://erlangen-crm.org/211015/P140i_was_attributed_by</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="#Object">Object</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="was_assigned_objectattribute_or_context_by">
+        <h3>was_assigned_objectattribute_or_context_by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#was_assigned_objectattribute_or_context_by" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/was_assigned_objectattribute_or_context_by</code></td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/P141i_was_assigned_by">http://erlangen-crm.org/211015/P141i_was_assigned_by</a><sup class="sup-op" title="object property">op</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/E5_Event">http://erlangen-crm.org/211015/E5_Event</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="datatypeproperties">
+    <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <ul class="hlist">
+        <li><a href="#P3_has_note">P3_has_note</a></li>
+        <li><a href="#has_earliest_start">has_earliest_start</a></li>
+        <li><a href="#has_latest_end">has_latest_end</a></li>
+    </ul>
+    <div class="entity property" id="P3_has_note">
+        <h3>P3_has_note<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#P3_has_note" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>http://erlangen-crm.org/211015/P3_has_note</code></td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="has_earliest_start">
+        <h3>has_earliest_start<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#has_earliest_start" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/has_earliest_start</code></td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/P3_has_note">http://erlangen-crm.org/211015/P3_has_note</a><sup class="sup-dp" title="datatype property">dp</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="has_latest_end">
+        <h3>has_latest_end<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#has_latest_end" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://nfdi4objects.wisski.data.fau.de/ontology/has_latest_end</code></td>
+            </tr>
+            <tr>
+                <th>Super-properties</th>
+                <td>
+                    <a href="http://erlangen-crm.org/211015/P3_has_note">http://erlangen-crm.org/211015/P3_has_note</a><sup class="sup-dp" title="datatype property">dp</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+  
+  <section id="namespaces">
+    <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+    <dl>
+        <dt>default (:)</dt>
+        <dd><code>https://nfdi4objects.wisski.data.fau.de/ontology/</code></dd>
+        <dt>brick</dt>
+        <dd><code>https://brickschema.org/schema/Brick#</code></dd>
+        <dt>csvw</dt>
+        <dd><code>http://www.w3.org/ns/csvw#</code></dd>
+        <dt>dc</dt>
+        <dd><code>http://purl.org/dc/elements/1.1/</code></dd>
+        <dt>dcam</dt>
+        <dd><code>http://purl.org/dc/dcam/</code></dd>
+        <dt>dcat</dt>
+        <dd><code>http://www.w3.org/ns/dcat#</code></dd>
+        <dt>dcmitype</dt>
+        <dd><code>http://purl.org/dc/dcmitype/</code></dd>
+        <dt>dcterms</dt>
+        <dd><code>http://purl.org/dc/terms/</code></dd>
+        <dt>doap</dt>
+        <dd><code>http://usefulinc.com/ns/doap#</code></dd>
+        <dt>foaf</dt>
+        <dd><code>http://xmlns.com/foaf/0.1/</code></dd>
+        <dt>geo</dt>
+        <dd><code>http://www.opengis.net/ont/geosparql#</code></dd>
+        <dt>odrl</dt>
+        <dd><code>http://www.w3.org/ns/odrl/2/</code></dd>
+        <dt>org</dt>
+        <dd><code>http://www.w3.org/ns/org#</code></dd>
+        <dt>owl</dt>
+        <dd><code>http://www.w3.org/2002/07/owl#</code></dd>
+        <dt>prof</dt>
+        <dd><code>http://www.w3.org/ns/dx/prof/</code></dd>
+        <dt>prov</dt>
+        <dd><code>http://www.w3.org/ns/prov#</code></dd>
+        <dt>qb</dt>
+        <dd><code>http://purl.org/linked-data/cube#</code></dd>
+        <dt>rdf</dt>
+        <dd><code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code></dd>
+        <dt>rdfs</dt>
+        <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
+        <dt>sdo</dt>
+        <dd><code>https://schema.org/</code></dd>
+        <dt>sh</dt>
+        <dd><code>http://www.w3.org/ns/shacl#</code></dd>
+        <dt>skos</dt>
+        <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
+        <dt>sosa</dt>
+        <dd><code>http://www.w3.org/ns/sosa/</code></dd>
+        <dt>ssn</dt>
+        <dd><code>http://www.w3.org/ns/ssn/</code></dd>
+        <dt>time</dt>
+        <dd><code>http://www.w3.org/2006/time#</code></dd>
+        <dt>vann</dt>
+        <dd><code>http://purl.org/vocab/vann/</code></dd>
+        <dt>void</dt>
+        <dd><code>http://rdfs.org/ns/void#</code></dd>
+        <dt>wgs</dt>
+        <dd><code>https://www.w3.org/2003/01/geo/wgs84_pos#</code></dd>
+        <dt>xsd</dt>
+        <dd><code>http://www.w3.org/2001/XMLSchema#</code></dd>
+    </dl>
+</section>
+  <section id="legend">
+      <h2>Legend</h2>
+      <table class="entity">
+          <tr><td><sup class="sup-c" title="Classes">c</sup></td><td>Classes</td></tr>
+          <tr><td><sup class="sup-op" title="Object Properties">op</sup></td><td>Object Properties</td></tr>
+          <tr><td><sup class="sup-fp" title="Functional Properties">fp</sup></td><td>Functional Properties</td></tr>
+          <tr><td><sup class="sup-dp" title="Data Properties">dp</sup></td><td>Data Properties</td></tr>
+          <tr><td><sup class="sup-ap" title="Annotation Properties">ap</sup></td><td>Annotation Properties</td></tr>
+          <tr><td><sup class="sup-p" title="Properties">p</sup></td><td>Properties</td></tr>
+          <tr><td><sup class="sup-ni" title="Named Individuals">ni</sup></td><td>Named Individuals</td></tr>
+      </table>
+  </section>
+</body>
+</html>
