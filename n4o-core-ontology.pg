@@ -1,0 +1,231 @@
+#Die NFDI4Objects Core Ontology mit Knoten aus https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+E4_Period
+E5_Event
+E7_Activity
+E9_Move
+E10_Transfer_of_Custody
+E11_Modification
+E13_Attribute_Assignment
+E17_Type_Assignment
+E22_Human_Made_Object
+E30_Right
+E31_Document
+E32_Authority_Document
+E35_Title
+E36_Visual_Item
+E42_Identifier
+E53_Place
+E55_Type
+E63_Beginning_of_Existence
+E65_Creation
+E73_Information_Object
+E74_Group
+E87_Curation_Activity
+3D_Model
+Accession
+AcquisitionType_Assignment
+Acquisition_Type
+Activity_Type
+Alternative_Title
+Appellation_Assignment
+Appropriation
+Appropriation_Type
+Audiofile
+Authorityfile
+Collectionsystematics
+Collectionsystematics_Assignment
+Comment
+Commissioning
+Corporate_Body
+Deaccession
+Description
+Dimension_Type
+Encounter_Event :Equals_S19_Encounter_Event_in_CRMArchaeo
+Environment
+Environmental_Affiliation
+Excavation
+Exhibition
+Exhibition_Type
+Existence
+Expedition
+Field_Work
+File
+Finding
+Foundation
+Geo_Coordinates
+Geographical_Place
+Global_Stratigraphic_Period
+Iconographic_Motive
+Iconography_Assignment
+Identifier
+Image
+Inventory_Number
+Keyword
+Licence
+Licence_Type
+Literature
+Literature_Section
+Literature_Section_ID
+Literature_Type
+Local_Stratigraphic_Period
+Location
+Location_Type
+Material_Assignment
+Museum_or_Collection_Affiliation
+Object
+ObjectType_Assignment
+Object_Condition_Type
+Object_Documentation
+Object_Transport
+Object_Type
+Occupation
+Photography
+Place_Assignment
+Preparation
+Presentation_Type
+Research_Activity
+Research_Activity_Type
+Restoration
+Rock_Genesis
+Society_of_Origin
+Source
+Source_Content
+Source_Content_Section
+Source_Content_Type
+Stratigraphic_Period_Assignment
+Systematization
+Time_Assignment
+Transcription
+URL
+Usage
+UsageType_Assignment
+Usage_Type
+Videofile
+
+Deaccession -> E10_Transfer_of_Custody :superClass
+Appropriation -> E10_Transfer_of_Custody :superClass
+Accession -> E10_Transfer_of_Custody :superClass
+Preparation -> E11_Modification :superClass
+Restoration -> E11_Modification :superClass
+Actor_Assignment -> E13_Attribute_Assignment :superClass
+Time_Assignment -> E13_Attribute_Assignment :superClass
+Material_Assignment -> E13_Attribute_Assignment :superClass
+Appellation_Assignment -> E13_Attribute_Assignment :superClass
+Place_Assignment -> E13_Attribute_Assignment :superClass
+Iconography_Assignment -> E13_Attribute_Assignment :superClass
+Stratigraphic_Period_Assignment -> E13_Attribute_Assignment :superClass
+Collectionsystematics_Assignment -> E17_Type_Assignment :superClass
+UsageType_Assignment -> E17_Type_Assignment :superClass
+ObjectType_Assignment -> E17_Type_Assignment :superClass
+AcquisitionType_Assignment -> E17_Type_Assignment :superClass
+Source -> E22_Human_Made_Object :superClass
+Object -> E22_Human_Made_Object :superClass
+Licence -> E30_Right :superClass
+Literature_Section -> E31_Document :superClass
+Literature -> E31_Document :superClass
+Transcription -> E31_Document :superClass
+Description -> E31_Document :superClass
+Comment -> E31_Document :superClass
+Authorityfile -> E32_Authority_Document :superClass
+Alternative_Title -> E35_Title :superClass
+Iconographic_Motive -> E36_Visual_Item :superClass
+Image -> E36_Visual_Item :superClass
+URL -> E42_Identifier :superClass
+Authorityfile_ID -> E42_Identifier :superClass
+Literature_Section_ID -> E42_Identifier :superClass
+Identifier -> E42_Identifier :superClass
+Inventory_Number -> E42_Identifier :superClass
+Geo_Coordinates -> E42_Identifier :superClass
+Local_Stratigraphic_Period -> E4_Period :superClass
+Geographical_Place -> E4_Period :superClass
+Location -> E53_Place :superClass
+Presentation_Type -> E55_Type :superClass
+Keyword -> E55_Type :superClass
+Object_Type -> E55_Type :superClass
+Source_Content_Type -> E55_Type :superClass
+Collectionsystematics -> E55_Type :superClass
+Object_Condition_Type -> E55_Type :superClass
+Licence_Type -> E55_Type :superClass
+Acquisition_Type -> E55_Type :superClass
+Dimension_Type -> E55_Type :superClass
+Activity_Type -> E55_Type :superClass
+Research_Activity_Type -> E55_Type :superClass
+Exhibition_Type -> E55_Type :superClass
+Occupation -> E55_Type :superClass
+Appropriation_Type -> E55_Type :superClass
+Location_Type -> E55_Type :superClass
+Usage_Type -> E55_Type :superClass
+Literature_Type -> E55_Type :superClass
+Museum_or_Collection_Affiliation -> E5_Event :superClass
+Existence -> E5_Event :superClass
+Environmental_Affiliation -> E5_Event :superClass
+Foundation -> E63_Beginning_of_Existence :superClass
+Rock_Genesis -> E63_Beginning_of_Existence :superClass
+Photography -> E65_Creation :superClass
+Finding -> E73_Information_Object :superClass
+Audiofile -> E73_Information_Object :superClass
+File -> E73_Information_Object :superClass
+Source_Content_Section -> E73_Information_Object :superClass
+3D_Model -> E73_Information_Object :superClass
+Videofile -> E73_Information_Object :superClass
+Source_Content -> E73_Information_Object :superClass
+Corporate_Body -> E74_Group :superClass
+Society_of_Origin -> E74_Group :superClass
+Commissioning -> E7_Activity :superClass
+Research_Activity -> E7_Activity :superClass
+Expedition -> E7_Activity :superClass
+Object_Documentation -> E7_Activity :superClass
+Usage -> E7_Activity :superClass
+Excavation -> E7_Activity :superClass
+Field_Work -> E7_Activity :superClass
+Encounter_Event -> E7_Activity :superClass
+Exhibition -> E87_Curation_Activity :superClass
+Systematization -> E87_Curation_Activity :superClass
+Object_Transport -> E9_Move :superClass
+E5_Event -> E1_CRM_Entity :was_assigned_objectattribute_or_context_by
+E1_CRM_Entity -> E5_Event :assigned_objectattribute_or_context
+Object -> E1_CRM_Entity :object_was_attributed_by
+E1_CRM_Entity -> Object :assigned_attribute_to_object
+
+# superClass aus https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html angereichert mit vorhandenen Kanten und E1
+E5_Event -> E4_Period :superClass
+E7_Activity -> E5_Event :superClass
+E63_Beginning_of_Existence -> E5_Event :superClass
+E9_Move -> E7_Activity :superClass
+E10_Transfer_of_Custody -> E7_Activity :superClass
+E11_Modification -> E7_Activity :superClass
+E13_Attribute_Assignment -> E7_Activity :superClass
+E65_Creation -> E7_Activity :superClass
+E87_Curation_Activity -> E7_Activity :superClass
+E17_Type_Assignment -> E13_Attribute_Assignment :superClass
+E32_Authority_Document -> E31_Document :superClass
+E65_Creation -> E63_Beginning_of_Existence :superClass
+E31_Document -> E73_Information_Object :superClass
+E53_Place -> E1_CRM_Entity :superClass
+
+# Properties aus https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html angereichert mit vorhandenen Kanten und E1
+E4_Period -> E53_Place :P7_took_place_at_(witnessed)
+E4_Period -> E4_Period :P9_consists_of_(forms_part_of)
+E7_Activity -> E5_Event :P20_had_specific_purpose_(was_purpose_of)
+E7_Activity -> E55_Type :P21_had_general_purpose_(was_purpose_of)
+E7_Activity -> E55_Type :P32_used_general_technique_(was_technique_of)
+E7_Activity -> E55_Type :P125_used_object_of_type_(was_type_of_object_used_in)
+E7_Activity -> E7_Activity :P134_continued_(was_continued_by)
+E9_Move -> E53_Place :P26_moved_to_(was_destination_of)
+E9_Move -> E53_Place :P27_moved_from_(was_origin_of)
+E13_Attribute_Assignment -> E55_Type :P177_assigned_property_of_type_(is_type_of_property_assigned)
+E17_Type_Assignment -> E55_Type :P42_assigned_(was_assigned_by)
+E53_Place -> E53_Place :P89_falls_within_(contains)
+E53_Place -> E53_Place :P121_overlaps_with
+E53_Place -> E53_Place :P122_borders_with
+E53_Place -> E53_Place :P189_approximates_(is_approximated_by)
+E55_Type -> E55_Type :P127_has_broader_term_(has_narrower_term)
+E55_Type -> E55_Type :P150_defines_typical_parts_of_(defines_typical_wholes_for)
+E7_Activity -> E1_CRM_Entity :P15_was_influenced_by_(influenced)
+E7_Activity -> E1_CRM_Entity :P17_was_motivated_by_(motivated)
+E13_Attribute_Assignment -> E1_CRM_Entity :P140_assigned_attribute_to_(was_attributed_by)
+E13_Attribute_Assignment -> E1_CRM_Entity :P141_assigned_(was_assigned_by):
+E17_Type_Assignment -> E1_CRM_Entity:P41_classified_(was_classified_by)
+E31_Document -> E1_CRM_Entity :P70_documents_(is_documented_in)
+E32_Authority_Document -> E1_CRM_Entity :P71_lists_(is_listed_in)
+E36_Visual_Item -> E1_CRM_Entity :P138_represents_(has_representation)
