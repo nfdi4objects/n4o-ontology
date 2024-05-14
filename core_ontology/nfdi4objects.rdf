@@ -8,10 +8,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:nfdi4objects="https://nfdi4objects.wisski.data.fau.de/ontology/"
-	 xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/7.1.3/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+  	 xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/7.1.3/">
     
-    
-
+    <owl:Ontology rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/">
+        <dc:title>NFDI4Objects Core Ontology</dc:title>
+        <rdfs:comment>This is work in progress</rdfs:comment>
+    </owl:Ontology>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
