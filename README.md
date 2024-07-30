@@ -4,7 +4,7 @@ Im Kontext von NFDI4Objects, Task Area (TA) 6 "Qualification, Integration, Harmo
  
 Dieses Repo beinhaltet 
 - [die Core Ontology](core_ontology) (OWL)
-- WissKI Pathbuilder Templates mit den semantischen Pfaden der Objektbiografie bzw. ObjectBiography (XML)
+- [WissKI Pathbuilder Templates mit den semantischen Pfaden der Objektbiografie bzw. ObjectBiography](pathbuilder_template_objectbiography) (XML)
 - WissKI Pathbuilder Templates mit den semantischen Pfaden der Objektkerndaten bzw. ObjectCore (XML)
 - den Export des Triplestore-Repos mit Beispieldaten (nq, ttl, JSON XML) 
 
