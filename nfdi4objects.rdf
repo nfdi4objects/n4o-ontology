@@ -18,23 +18,27 @@
     
         <rdfs:label>NFDI4Objects Ontology</rdfs:label>
         <dct:creator>
-          <rdf:Description rdf:about="https://orcid.org/0000-0003-2576-1511">
+          <rdf:Description>
+            <sdo:identifier>https://orcid.org/0000-0003-2576-1511</sdo:identifier>
             <sdo:name>Anja Gerber</sdo:name>
           </rdf:Description>
         </dct:creator>
         <dct:creator>
-          <rdf:Description rdf:about="https://orcid.org/0000-0002-9499-5840">
+          <rdf:Description>
+            <sdo:identifier>https://orcid.org/0000-0002-9499-5840</sdo:identifier>
             <sdo:name>Timo Homburg</sdo:name>
           </rdf:Description>
         </dct:creator>
         <dct:creator>
-          <rdf:Description rdf:about="https://orcid.org/0000-0002-1352-129X">
+          <rdf:Description>
+            <sdo:identifier>https://orcid.org/0000-0002-1352-129X</sdo:identifier>
             <sdo:name>Sarah Wagner</sdo:name>
           </rdf:Description>
         </dct:creator>
     
         <dct:contributor>
-          <rdf:Description rdf:about="https://orcid.org/0000-0002-7613-4123">
+          <rdf:Description>
+            <sdo:identifier>https://orcid.org/0000-0002-7613-4123</sdo:identifier>
             <sdo:name>Jakob Voß</sdo:name>
           </rdf:Description>
         </dct:contributor>
