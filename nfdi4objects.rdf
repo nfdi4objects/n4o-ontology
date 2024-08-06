@@ -2,6 +2,8 @@
 <rdf:RDF xmlns="https://nfdi4objects.wisski.data.fau.de/ontology/"
      xml:base="https://nfdi4objects.wisski.data.fau.de/ontology/"
      xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/7.1.3/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:sdo="https://schema.org/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,8 +11,32 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:nfdi4objects="https://nfdi4objects.wisski.data.fau.de/ontology/">
-    <owl:Ontology rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/"/>
+    <owl:Ontology rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/">
     
+        <rdfs:label>NFDI4Objects Ontology</rdfs:label>
+        <dct:creator>
+          <rdf:Description rdf:about="https://orcid.org/0000-0003-2576-1511">
+            <sdo:name>Anja Gerber</sdo:name>
+          </rdf:Description>
+        </dct:creator>
+        <dct:creator>
+          <rdf:Description rdf:about="https://orcid.org/0000-0002-9499-5840">
+            <sdo:name>Timo Homburg</sdo:name>
+          </rdf:Description>
+        </dct:creator>
+        <dct:creator>
+          <rdf:Description rdf:about="https://orcid.org/0000-0002-1352-129X">
+            <sdo:name>Sarah Wagner</sdo:name>
+          </rdf:Description>
+        </dct:creator>
+    
+        <dct:contributor>
+          <rdf:Description rdf:about="https://orcid.org/0000-0002-7613-4123">
+            <sdo:name>Jakob Voß</sdo:name>
+          </rdf:Description>
+        </dct:contributor>
+
+    </owl:Ontology>
 
 
     <!-- 
