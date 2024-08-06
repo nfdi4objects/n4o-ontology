@@ -26,7 +26,7 @@ jobs:
          sudo pip3 install wheel pylode==3.0.2 rdflib
          mkdir docs
          echo "Generating documentation for Core ontology"
-         pylode -i nfdi4objects.rdf -o docs/index.html
+         python -m pylode nfdi4objects.rdf -o docs/index.html
          cp nfdi4objects.rdf docs
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
