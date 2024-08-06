@@ -2,8 +2,9 @@ docs: docs/index.html
 
 deps:
 	python -m venv .venv
-	.venv/bin/pip install wheel pylode==2.13.2 rdflib
+	.venv/bin/pip install wheel pylode==3.0.2 rdflib
 
 docs/index.html: nfdi4objects.rdf
 	mkdir -p docs
-	.venv/bin/pylode -i $< -o $@
+	.venv/bin/python -m pylode $< -o $@
+	cp $< docs

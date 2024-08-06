@@ -23,7 +23,7 @@ jobs:
          sudo apt-get install gcc libpq-dev -y
          sudo apt-get install python3-dev python3-pip -y
          sudo apt-get install python3-venv python3-wheel -y
-         sudo pip3 install wheel pylode==2.13.2 rdflib
+         sudo pip3 install wheel pylode==3.0.2 rdflib
          mkdir docs
          echo "Generating documentation for Core ontology"
          pylode -i nfdi4objects.rdf -o docs/index.html

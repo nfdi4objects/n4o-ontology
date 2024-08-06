@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://nfdi4objects.wisski.data.fau.de/ontology/"
      xml:base="https://nfdi4objects.wisski.data.fau.de/ontology/"
+     xmlns:n4o="https://nfdi4objects.wisski.data.fau.de/ontology/"
      xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/7.1.3/"
      xmlns:dct="http://purl.org/dc/terms/"
      xmlns:sdo="https://schema.org/"
@@ -9,9 +10,11 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:nfdi4objects="https://nfdi4objects.wisski.data.fau.de/ontology/">
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <owl:Ontology rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/">
+        <vann:preferredNamespaceUri>https://nfdi4objects.wisski.data.fau.de/ontology/</vann:preferredNamespaceUri>
+        <vann:preferredNamespacePrefix>n4o</vann:preferredNamespacePrefix>
     
         <rdfs:label>NFDI4Objects Ontology</rdfs:label>
         <dct:creator>
