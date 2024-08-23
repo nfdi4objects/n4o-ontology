@@ -104,7 +104,7 @@
   </path>
   <path>
     <id>zerstorung</id>
-    <weight>33</weight>
+    <weight>34</weight>
     <enabled>1</enabled>
     <group_id>objekt</group_id>
     <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
@@ -204,7 +204,7 @@
   </path>
   <path>
     <id>ereignis</id>
-    <weight>2</weight>
+    <weight>1</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>bda86dcb11fa706d6eeaa07c63d177fd</bundle>
@@ -227,7 +227,7 @@
   </path>
   <path>
     <id>person_main</id>
-    <weight>3</weight>
+    <weight>2</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>baf71e0ec5b905096f3f8708a699debb</bundle>
@@ -250,7 +250,7 @@
   </path>
   <path>
     <id>zeit</id>
-    <weight>4</weight>
+    <weight>3</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b70b765c3cab8d20241f0f00d80418a5</bundle>
@@ -273,7 +273,7 @@
   </path>
   <path>
     <id>quelle</id>
-    <weight>5</weight>
+    <weight>4</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b51fcdf51b53b1af573e060c135cb8f3</bundle>
@@ -296,7 +296,7 @@
   </path>
   <path>
     <id>quelleninhalt_main</id>
-    <weight>6</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>ba1a339b85174c04a8c3419c2d649a2a</bundle>
@@ -319,7 +319,7 @@
   </path>
   <path>
     <id>ort_main</id>
-    <weight>7</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b0e770036dbc354c79deedad6dacac2f</bundle>
@@ -367,7 +367,7 @@
   </path>
   <path>
     <id>kreation_quelleninhalt</id>
-    <weight>5</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>quelleninhalt_main</group_id>
     <bundle>b13ea79ab9285ee94e2ad20a8db6b444</bundle>
@@ -392,7 +392,7 @@
   </path>
   <path>
     <id>gruppe_herkunftsgesellschaft</id>
-    <weight>8</weight>
+    <weight>7</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b49ace9346e24b49f913bd678864a217</bundle>
@@ -415,7 +415,7 @@
   </path>
   <path>
     <id>quellenverweis_main</id>
-    <weight>9</weight>
+    <weight>8</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b5ebd529444ab8be83c176063e91be70</bundle>
@@ -438,7 +438,7 @@
   </path>
   <path>
     <id>korperschaft_main</id>
-    <weight>10</weight>
+    <weight>9</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>bf61731b37db78186aa67ab88fc58ec4</bundle>
@@ -461,7 +461,7 @@
   </path>
   <path>
     <id>akteurszuweisung</id>
-    <weight>11</weight>
+    <weight>10</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
@@ -484,7 +484,7 @@
   </path>
   <path>
     <id>ortszuweisung_main</id>
-    <weight>12</weight>
+    <weight>11</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>be0d16dc2bd2ba1674aaee726dcb788b</bundle>
@@ -507,7 +507,7 @@
   </path>
   <path>
     <id>zeitzuweisung</id>
-    <weight>13</weight>
+    <weight>12</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b968b576c2bde35676060956f86f6b47</bundle>
@@ -530,7 +530,7 @@
   </path>
   <path>
     <id>standort</id>
-    <weight>14</weight>
+    <weight>13</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>bb76195dfa9b2b349814e9dd0b26612e</bundle>
@@ -578,7 +578,7 @@
   </path>
   <path>
     <id>grabung</id>
-    <weight>32</weight>
+    <weight>4</weight>
     <enabled>1</enabled>
     <group_id>begegnung</group_id>
     <bundle>b17aa9b55b455d4af57ca72f4ef70dcd</bundle>
@@ -605,7 +605,7 @@
   </path>
   <path>
     <id>bezeichnungszuweisung</id>
-    <weight>15</weight>
+    <weight>14</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b0d24351e54eac3fca1caacfa925451b</bundle>
@@ -628,7 +628,7 @@
   </path>
   <path>
     <id>grabung_main</id>
-    <weight>16</weight>
+    <weight>15</weight>
     <enabled>0</enabled>
     <group_id>0</group_id>
     <bundle/>
@@ -678,7 +678,7 @@
   </path>
   <path>
     <id>messung</id>
-    <weight>17</weight>
+    <weight>16</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b0eb5c713612fb59244d35703e2e0f39</bundle>
@@ -753,7 +753,7 @@
   </path>
   <path>
     <id>identifikatorzuweisung_main</id>
-    <weight>18</weight>
+    <weight>17</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>bb168efc4fe2b323ec38b143885c3c5d</bundle>
@@ -806,13 +806,13 @@
     <weight>26</weight>
     <enabled>1</enabled>
     <group_id>inventarisierung_und_dokumentati</group_id>
-    <bundle>bb66f047b7f2e97e347f165565d24042</bundle>
-    <field>bb66f047b7f2e97e347f165565d24042</field>
-    <fieldtype/>
-    <displaywidget/>
-    <formatterwidget/>
+    <bundle>b79d399a5e645c48a6aaa4445295b320</bundle>
+    <field>fa756dfebd917ff7ec1cfb16ee9064b4</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
     <cardinality>-1</cardinality>
-    <field_type_informative/>
+    <field_type_informative>entity_reference</field_type_informative>
     <path_array>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
@@ -820,19 +820,19 @@
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Photography</x>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
     </path_array>
     <datatype_property>empty</datatype_property>
     <short_name/>
-    <disamb>0</disamb>
+    <disamb>4</disamb>
     <description/>
     <uuid>4438ce06-feba-4097-960d-5ea44bf65613</uuid>
-    <is_group>1</is_group>
-    <name>Photographie</name>
+    <is_group>0</is_group>
+    <name>Bildgebendes Verfahren</name>
   </path>
   <path>
     <id>abbildung</id>
-    <weight>19</weight>
+    <weight>18</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>bd9336702eff03c188de3ca2e35665fa</bundle>
@@ -911,7 +911,7 @@
   </path>
   <path>
     <id>nutzungsartzuweisung</id>
-    <weight>20</weight>
+    <weight>19</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b6e97821923baa568b4608f109a3f332</bundle>
@@ -1003,7 +1003,7 @@
   </path>
   <path>
     <id>aneignung</id>
-    <weight>31</weight>
+    <weight>3</weight>
     <enabled>1</enabled>
     <group_id>begegnung</group_id>
     <bundle>bf0df3a18f62219876b7e4a6c02d493a</bundle>
@@ -1144,21 +1144,17 @@
   </path>
   <path>
     <id>restaurierung</id>
-    <weight>11</weight>
-    <enabled>1</enabled>
-    <group_id>museums_sammlungskontext</group_id>
+    <weight>20</weight>
+    <enabled>0</enabled>
+    <group_id>0</group_id>
     <bundle>b04fff37dbbd1cd81a44acef34295703</bundle>
-    <field>b04fff37dbbd1cd81a44acef34295703</field>
+    <field/>
     <fieldtype/>
     <displaywidget/>
     <formatterwidget/>
     <cardinality>-1</cardinality>
     <field_type_informative/>
     <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Restoration</x>
     </path_array>
     <datatype_property>empty</datatype_property>
@@ -1191,33 +1187,6 @@
     <uuid>ba2e25cd-eff9-444d-9e22-1d99049cf45b</uuid>
     <is_group>1</is_group>
     <name>Sammlung</name>
-  </path>
-  <path>
-    <id>praparation</id>
-    <weight>5</weight>
-    <enabled>1</enabled>
-    <group_id>museums_sammlungskontext</group_id>
-    <bundle>bf9afff945848e052335a3892a4c2bba</bundle>
-    <field>bf9afff945848e052335a3892a4c2bba</field>
-    <fieldtype/>
-    <displaywidget/>
-    <formatterwidget/>
-    <cardinality>-1</cardinality>
-    <field_type_informative/>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Preparation</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>0</disamb>
-    <description/>
-    <uuid>f14a805a-5496-4e5f-8712-4f64cd5212ee</uuid>
-    <is_group>1</is_group>
-    <name>Pr&#xE4;paration</name>
   </path>
   <path>
     <id>materialzuweisung_main</id>
@@ -1318,7 +1287,7 @@
   <path>
     <id>existenz_objekt</id>
     <weight>28</weight>
-    <enabled>1</enabled>
+    <enabled>0</enabled>
     <group_id>objekt</group_id>
     <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
     <field>bf08a2595eef63bfd046f26798fd8e17</field>
@@ -1339,33 +1308,6 @@
     <uuid>986d5948-daae-4755-9cae-b5189d915bca</uuid>
     <is_group>1</is_group>
     <name>Vorkommen/Lebensraum</name>
-  </path>
-  <path>
-    <id>rock_genesis</id>
-    <weight>0</weight>
-    <enabled>1</enabled>
-    <group_id>entstehung</group_id>
-    <bundle>ba88bb8399cc8c4135e656e96f8cb2db</bundle>
-    <field>ba88bb8399cc8c4135e656e96f8cb2db</field>
-    <fieldtype/>
-    <displaywidget/>
-    <formatterwidget/>
-    <cardinality>-1</cardinality>
-    <field_type_informative/>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>0</disamb>
-    <description/>
-    <uuid>0915f9bf-769b-4689-a681-d839815bdffa</uuid>
-    <is_group>1</is_group>
-    <name>Erdzeitliche Entstehung</name>
   </path>
   <path>
     <id>biologisches_objekt</id>
@@ -1444,7 +1386,7 @@
   </path>
   <path>
     <id>zerstoerung_kontext_von_ereignis</id>
-    <weight>5</weight>
+    <weight>7</weight>
     <enabled>1</enabled>
     <group_id>zerstorung</group_id>
     <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
@@ -1546,7 +1488,7 @@
   </path>
   <path>
     <id>datum</id>
-    <weight>6</weight>
+    <weight>9</weight>
     <enabled>1</enabled>
     <group_id>zerstorung</group_id>
     <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
@@ -1569,11 +1511,11 @@
     <description/>
     <uuid>2c4873e5-a232-4f5b-b2a2-e7246205a8e3</uuid>
     <is_group>0</is_group>
-    <name>Datumszuweisung</name>
+    <name>Zeitzuweisung</name>
   </path>
   <path>
     <id>datum_creation</id>
-    <weight>1</weight>
+    <weight>4</weight>
     <enabled>1</enabled>
     <group_id>kreation</group_id>
     <bundle>b652c2be9b892f74c17fd9d39b0fb90b</bundle>
@@ -1602,7 +1544,7 @@
   </path>
   <path>
     <id>kreierende_person</id>
-    <weight>0</weight>
+    <weight>3</weight>
     <enabled>1</enabled>
     <group_id>kreation</group_id>
     <bundle>b652c2be9b892f74c17fd9d39b0fb90b</bundle>
@@ -1631,7 +1573,7 @@
   </path>
   <path>
     <id>ort_creation</id>
-    <weight>2</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>kreation</group_id>
     <bundle>b652c2be9b892f74c17fd9d39b0fb90b</bundle>
@@ -1735,7 +1677,7 @@
   </path>
   <path>
     <id>herstellende_person</id>
-    <weight>0</weight>
+    <weight>4</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -1764,7 +1706,7 @@
   </path>
   <path>
     <id>datum_herstellung</id>
-    <weight>1</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -1793,7 +1735,7 @@
   </path>
   <path>
     <id>ort_herstellung</id>
-    <weight>2</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -1822,7 +1764,7 @@
   </path>
   <path>
     <id>trager_der_quelle</id>
-    <weight>4</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>quelleninhalt_main</group_id>
     <bundle>ba1a339b85174c04a8c3419c2d649a2a</bundle>
@@ -2048,7 +1990,7 @@
   </path>
   <path>
     <id>titel_quelleninhalt</id>
-    <weight>3</weight>
+    <weight>2</weight>
     <enabled>1</enabled>
     <group_id>quelleninhalt_main</group_id>
     <bundle>ba1a339b85174c04a8c3419c2d649a2a</bundle>
@@ -2204,7 +2146,7 @@
   </path>
   <path>
     <id>transkription_quellenverweis</id>
-    <weight>1</weight>
+    <weight>2</weight>
     <enabled>1</enabled>
     <group_id>quellenverweis_main</group_id>
     <bundle>b5ebd529444ab8be83c176063e91be70</bundle>
@@ -2254,7 +2196,7 @@
   </path>
   <path>
     <id>zugewiesene_person</id>
-    <weight>0</weight>
+    <weight>1</weight>
     <enabled>1</enabled>
     <group_id>akteurszuweisung</group_id>
     <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
@@ -2281,7 +2223,7 @@
   </path>
   <path>
     <id>korperschaftszuweisung</id>
-    <weight>1</weight>
+    <weight>2</weight>
     <enabled>1</enabled>
     <group_id>akteurszuweisung</group_id>
     <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
@@ -2308,7 +2250,7 @@
   </path>
   <path>
     <id>zuw_gruppe_herkunftsgesellschaft</id>
-    <weight>2</weight>
+    <weight>3</weight>
     <enabled>1</enabled>
     <group_id>akteurszuweisung</group_id>
     <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
@@ -2335,7 +2277,7 @@
   </path>
   <path>
     <id>quellenverweis_akteurszuweisung</id>
-    <weight>3</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>akteurszuweisung</group_id>
     <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
@@ -2645,7 +2587,7 @@
   </path>
   <path>
     <id>in_kontext_von_ereignis_encounte</id>
-    <weight>28</weight>
+    <weight>1</weight>
     <enabled>1</enabled>
     <group_id>begegnung</group_id>
     <bundle>bed2ae955bf60a86a2aa4364a4554f07</bundle>
@@ -2660,7 +2602,7 @@
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P10_falls_within</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event</x>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity</x>
     </path_array>
     <datatype_property>empty</datatype_property>
     <short_name/>
@@ -2668,7 +2610,7 @@
     <description/>
     <uuid>38da190c-0ad2-4dcf-a153-72c20c49d14b</uuid>
     <is_group>0</is_group>
-    <name>in Kontext von Ereignis</name>
+    <name>in Kontext von Handlung</name>
   </path>
   <path>
     <id>akteurzuweisung_akquisition</id>
@@ -3086,101 +3028,6 @@
     <name>Quellenverweis</name>
   </path>
   <path>
-    <id>akteurzuweisung</id>
-    <weight>0</weight>
-    <enabled>1</enabled>
-    <group_id>photographie</group_id>
-    <bundle>bb66f047b7f2e97e347f165565d24042</bundle>
-    <field>f15ff20c4b3d975ba894786a99538fb3</field>
-    <fieldtype>entity_reference</fieldtype>
-    <displaywidget>inline_entity_form_complex</displaywidget>
-    <formatterwidget>entity_reference_entity_view</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>entity_reference</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Photography</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>5</disamb>
-    <description/>
-    <uuid>4f1342da-a9b5-4a21-a286-595df3b276f1</uuid>
-    <is_group>0</is_group>
-    <name>Akteurzuweisung</name>
-  </path>
-  <path>
-    <id>zeitzuweisung_fotografie</id>
-    <weight>1</weight>
-    <enabled>1</enabled>
-    <group_id>photographie</group_id>
-    <bundle>bb66f047b7f2e97e347f165565d24042</bundle>
-    <field>f3a9139986865ff1066eb349abd3043c</field>
-    <fieldtype>entity_reference</fieldtype>
-    <displaywidget>inline_entity_form_complex</displaywidget>
-    <formatterwidget>entity_reference_entity_view</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>entity_reference</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Photography</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>5</disamb>
-    <description/>
-    <uuid>3cf1dc5c-b4bc-43f8-8377-d826b2b792e0</uuid>
-    <is_group>0</is_group>
-    <name>Zeitzuweisung</name>
-  </path>
-  <path>
-    <id>foto</id>
-    <weight>2</weight>
-    <enabled>1</enabled>
-    <group_id>photographie</group_id>
-    <bundle>bb66f047b7f2e97e347f165565d24042</bundle>
-    <field>fb9b4e9648494fe381c1e43edc4ed5b8</field>
-    <fieldtype>image</fieldtype>
-    <displaywidget>image_image</displaywidget>
-    <formatterwidget>image</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>image</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Photography</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Image</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/URL</x>
-    </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
-    <short_name/>
-    <disamb>0</disamb>
-    <description/>
-    <uuid>da69fa05-13e4-480d-be22-180343e651fe</uuid>
-    <is_group>0</is_group>
-    <name>Foto</name>
-  </path>
-  <path>
     <id>feststellung_von_massen</id>
     <weight>24</weight>
     <enabled>1</enabled>
@@ -3240,7 +3087,7 @@
   </path>
   <path>
     <id>url_quelleninhalt</id>
-    <weight>6</weight>
+    <weight>7</weight>
     <enabled>1</enabled>
     <group_id>quelleninhalt_main</group_id>
     <bundle>ba1a339b85174c04a8c3419c2d649a2a</bundle>
@@ -3912,7 +3759,7 @@
     </path_array>
     <datatype_property>empty</datatype_property>
     <short_name/>
-    <disamb>0</disamb>
+    <disamb>5</disamb>
     <description/>
     <uuid>adc0a722-8d1a-41bb-88ef-9ac5b69babc2</uuid>
     <is_group>0</is_group>
@@ -4162,7 +4009,7 @@
   </path>
   <path>
     <id>kommentar</id>
-    <weight>4</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>akteurszuweisung</group_id>
     <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
@@ -4245,7 +4092,7 @@
     <fieldtype>string</fieldtype>
     <displaywidget>string_textfield</displaywidget>
     <formatterwidget>wisski_link_formatter</formatterwidget>
-    <cardinality>1</cardinality>
+    <cardinality>-1</cardinality>
     <field_type_informative>string</field_type_informative>
     <path_array>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
@@ -4296,27 +4143,23 @@
   <path>
     <id>akteurzuweisung_restaurierung</id>
     <weight>0</weight>
-    <enabled>1</enabled>
+    <enabled>0</enabled>
     <group_id>restaurierung</group_id>
     <bundle>b04fff37dbbd1cd81a44acef34295703</bundle>
-    <field>f67b963776cbac058536a082ab28a272</field>
+    <field>fe780e4d38044ee5c19df04476c57a0c</field>
     <fieldtype>entity_reference</fieldtype>
     <displaywidget>inline_entity_form_complex</displaywidget>
     <formatterwidget>entity_reference_entity_view</formatterwidget>
     <cardinality>-1</cardinality>
     <field_type_informative>entity_reference</field_type_informative>
     <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Restoration</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
     </path_array>
     <datatype_property>empty</datatype_property>
     <short_name/>
-    <disamb>4</disamb>
+    <disamb>2</disamb>
     <description/>
     <uuid>7defdab3-a4e7-4fed-bd28-a345d5f5ac50</uuid>
     <is_group>0</is_group>
@@ -4325,27 +4168,23 @@
   <path>
     <id>zeitzuweisung_restaurierung</id>
     <weight>1</weight>
-    <enabled>1</enabled>
+    <enabled>0</enabled>
     <group_id>restaurierung</group_id>
     <bundle>b04fff37dbbd1cd81a44acef34295703</bundle>
-    <field>ff6e85976d1484f680ed384a39c201e2</field>
+    <field>f5e842371a80148c9d002289de137a3c</field>
     <fieldtype>entity_reference</fieldtype>
     <displaywidget>inline_entity_form_complex</displaywidget>
     <formatterwidget>entity_reference_entity_view</formatterwidget>
     <cardinality>-1</cardinality>
     <field_type_informative>entity_reference</field_type_informative>
     <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Restoration</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
     </path_array>
     <datatype_property>empty</datatype_property>
     <short_name/>
-    <disamb>4</disamb>
+    <disamb>2</disamb>
     <description/>
     <uuid>a67b37c3-6841-4fe7-afd3-f1ea46f00d58</uuid>
     <is_group>0</is_group>
@@ -4354,20 +4193,16 @@
   <path>
     <id>beschreibung_restaurierung</id>
     <weight>2</weight>
-    <enabled>1</enabled>
+    <enabled>0</enabled>
     <group_id>restaurierung</group_id>
     <bundle>b04fff37dbbd1cd81a44acef34295703</bundle>
-    <field>fd2e5296436824d7e370585528f6566e</field>
+    <field>fa6ca01d2f303f2ca791c0d5823b6e53</field>
     <fieldtype>text_long</fieldtype>
     <displaywidget>text_textarea</displaywidget>
     <formatterwidget>text_trimmed</formatterwidget>
     <cardinality>1</cardinality>
     <field_type_informative>text_long</field_type_informative>
     <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Restoration</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Description</x>
@@ -4440,11 +4275,11 @@
   </path>
   <path>
     <id>bezeichnungszuweisung_begegnung</id>
-    <weight>30</weight>
-    <enabled>0</enabled>
+    <weight>2</weight>
+    <enabled>1</enabled>
     <group_id>begegnung</group_id>
-    <bundle/>
-    <field>ea6cd7a9428f121a9a042fe66de406eb</field>
+    <bundle>bed2ae955bf60a86a2aa4364a4554f07</bundle>
+    <field>fc1369220acd28bed78ee9f1b6cea29b</field>
     <fieldtype>entity_reference</fieldtype>
     <displaywidget>inline_entity_form_complex</displaywidget>
     <formatterwidget>entity_reference_entity_view</formatterwidget>
@@ -4545,95 +4380,8 @@
     <name>Bezeichnung</name>
   </path>
   <path>
-    <id>akteurzuweisung_praeparation</id>
-    <weight>0</weight>
-    <enabled>1</enabled>
-    <group_id>praparation</group_id>
-    <bundle>bf9afff945848e052335a3892a4c2bba</bundle>
-    <field>fd8fc74a71b938bbc48d07f3c6652104</field>
-    <fieldtype>entity_reference</fieldtype>
-    <displaywidget>inline_entity_form_complex</displaywidget>
-    <formatterwidget>entity_reference_entity_view</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>entity_reference</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Preparation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>4</disamb>
-    <description/>
-    <uuid>2befcfcd-5b58-4ec6-98c7-5faa18d6b0e9</uuid>
-    <is_group>0</is_group>
-    <name>Akteurzuweisung</name>
-  </path>
-  <path>
-    <id>zeitzuweisung_praeparation</id>
-    <weight>1</weight>
-    <enabled>1</enabled>
-    <group_id>praparation</group_id>
-    <bundle>bf9afff945848e052335a3892a4c2bba</bundle>
-    <field>f84b958ed909c942c641edd0932402c8</field>
-    <fieldtype>entity_reference</fieldtype>
-    <displaywidget>inline_entity_form_complex</displaywidget>
-    <formatterwidget>entity_reference_entity_view</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>entity_reference</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Preparation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>4</disamb>
-    <description/>
-    <uuid>8475f101-a62e-4345-bdcc-88e46f1ddd1e</uuid>
-    <is_group>0</is_group>
-    <name>Zeitzuweisung</name>
-  </path>
-  <path>
-    <id>beschreibung_massnahmen_praepara</id>
-    <weight>2</weight>
-    <enabled>1</enabled>
-    <group_id>praparation</group_id>
-    <bundle>bf9afff945848e052335a3892a4c2bba</bundle>
-    <field>f4003ca81febbeeecea2cc073a809f95</field>
-    <fieldtype>text_long</fieldtype>
-    <displaywidget>text_textarea</displaywidget>
-    <formatterwidget>text_trimmed</formatterwidget>
-    <cardinality>1</cardinality>
-    <field_type_informative>text_long</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Preparation</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Description</x>
-    </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
-    <short_name/>
-    <disamb>0</disamb>
-    <description/>
-    <uuid>76c1bbc1-e90f-419f-b189-632f19af92f0</uuid>
-    <is_group>0</is_group>
-    <name>Beschreibung der Ma&#xDF;nahmen</name>
-  </path>
-  <path>
     <id>abbildung_objekt</id>
-    <weight>34</weight>
+    <weight>35</weight>
     <enabled>1</enabled>
     <group_id>objekt</group_id>
     <bundle>bac96148b522de5ca00d75fbd0a08f98</bundle>
@@ -4660,7 +4408,7 @@
   </path>
   <path>
     <id>akteuerzuweisung_forschungsaktiv</id>
-    <weight>1</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>forschungsaktivitat</group_id>
     <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
@@ -4687,7 +4435,7 @@
   </path>
   <path>
     <id>zeitzuweisung_forschungsaktivita</id>
-    <weight>2</weight>
+    <weight>7</weight>
     <enabled>1</enabled>
     <group_id>forschungsaktivitat</group_id>
     <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
@@ -4714,7 +4462,7 @@
   </path>
   <path>
     <id>beschreibung_der_forschungsaktiv</id>
-    <weight>4</weight>
+    <weight>9</weight>
     <enabled>1</enabled>
     <group_id>forschungsaktivitat</group_id>
     <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
@@ -4768,7 +4516,7 @@
   </path>
   <path>
     <id>ortszuweisung_forschungsaktivita</id>
-    <weight>3</weight>
+    <weight>8</weight>
     <enabled>1</enabled>
     <group_id>forschungsaktivitat</group_id>
     <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
@@ -5094,8 +4842,8 @@
   </path>
   <path>
     <id>umgebung_existenz</id>
-    <weight>1</weight>
-    <enabled>1</enabled>
+    <weight>5</weight>
+    <enabled>0</enabled>
     <group_id>existenz_objekt</group_id>
     <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
     <field>f2c243367f75b679efde0a0025d35bea</field>
@@ -5179,7 +4927,7 @@
   </path>
   <path>
     <id>beschreibung_des_befunds</id>
-    <weight>2</weight>
+    <weight>1</weight>
     <enabled>1</enabled>
     <group_id>quellenverweis_main</group_id>
     <bundle>b5ebd529444ab8be83c176063e91be70</bundle>
@@ -5332,104 +5080,9 @@
     <name>Zeitzuweisung</name>
   </path>
   <path>
-    <id>global_stratigraphic_period</id>
-    <weight>0</weight>
-    <enabled>1</enabled>
-    <group_id>rock_genesis</group_id>
-    <bundle>ba88bb8399cc8c4135e656e96f8cb2db</bundle>
-    <field>f9f48e92165f3643dceb3674f9f872fc</field>
-    <fieldtype>string</fieldtype>
-    <displaywidget>string_textfield</displaywidget>
-    <formatterwidget>string</formatterwidget>
-    <cardinality>1</cardinality>
-    <field_type_informative>string</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P141_assigned</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Global_Stratigraphic_Period</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
-    </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
-    <short_name/>
-    <disamb>5</disamb>
-    <description/>
-    <uuid>eba3ecd5-a29d-4caf-9129-f7ef472ebbe1</uuid>
-    <is_group>0</is_group>
-    <name>Global Stratigraphic Period</name>
-  </path>
-  <path>
-    <id>local_stratigraphic_period_rock_</id>
-    <weight>1</weight>
-    <enabled>1</enabled>
-    <group_id>rock_genesis</group_id>
-    <bundle>ba88bb8399cc8c4135e656e96f8cb2db</bundle>
-    <field>f5583b870b0b302bd57240a400c273e0</field>
-    <fieldtype>string</fieldtype>
-    <displaywidget>string_textfield</displaywidget>
-    <formatterwidget>string</formatterwidget>
-    <cardinality>1</cardinality>
-    <field_type_informative>string</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P141_assigned</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Local_Stratigraphic_Period</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
-    </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
-    <short_name/>
-    <disamb>5</disamb>
-    <description/>
-    <uuid>b7419553-1079-4fba-b524-1ac439b01777</uuid>
-    <is_group>0</is_group>
-    <name>Local Stratigraphic Period</name>
-  </path>
-  <path>
-    <id>quellenverweis_rock_genesis</id>
-    <weight>3</weight>
-    <enabled>1</enabled>
-    <group_id>rock_genesis</group_id>
-    <bundle>ba88bb8399cc8c4135e656e96f8cb2db</bundle>
-    <field>fd69d35e4c7254a27f994481c7c01ac0</field>
-    <fieldtype>entity_reference</fieldtype>
-    <displaywidget>inline_entity_form_complex</displaywidget>
-    <formatterwidget>entity_reference_entity_view</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>entity_reference</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>4</disamb>
-    <description/>
-    <uuid>12c4185b-0543-43d5-b6c4-20321b6d2213</uuid>
-    <is_group>0</is_group>
-    <name>Quellenverweis</name>
-  </path>
-  <path>
     <id>quellenverweis_existence</id>
-    <weight>4</weight>
-    <enabled>1</enabled>
+    <weight>8</weight>
+    <enabled>0</enabled>
     <group_id>existenz_objekt</group_id>
     <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
     <field>fe477f0e4216be15070d4becb88a473c</field>
@@ -5454,38 +5107,9 @@
     <name>Quellenverweis</name>
   </path>
   <path>
-    <id>beschreibung_rock_genesis</id>
-    <weight>4</weight>
-    <enabled>1</enabled>
-    <group_id>rock_genesis</group_id>
-    <bundle>ba88bb8399cc8c4135e656e96f8cb2db</bundle>
-    <field>f4fd06126cdb35260a96a6c51876687d</field>
-    <fieldtype>string_long</fieldtype>
-    <displaywidget>string_textarea</displaywidget>
-    <formatterwidget>basic_string</formatterwidget>
-    <cardinality>1</cardinality>
-    <field_type_informative>string_long</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Description</x>
-    </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
-    <short_name/>
-    <disamb>0</disamb>
-    <description/>
-    <uuid>3565dbb3-d969-4a96-8a1d-ba7e70a697ff</uuid>
-    <is_group>0</is_group>
-    <name>Beschreibung</name>
-  </path>
-  <path>
     <id>ortszuweisung_existence</id>
-    <weight>2</weight>
-    <enabled>1</enabled>
+    <weight>6</weight>
+    <enabled>0</enabled>
     <group_id>existenz_objekt</group_id>
     <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
     <field>fd343d58004c4f2a7a2424902bf40a32</field>
@@ -5511,8 +5135,8 @@
   </path>
   <path>
     <id>zeitzuweisung_existence</id>
-    <weight>3</weight>
-    <enabled>1</enabled>
+    <weight>7</weight>
+    <enabled>0</enabled>
     <group_id>existenz_objekt</group_id>
     <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
     <field>f86255d7d8d7669d8f6e043bc0190121</field>
@@ -5538,26 +5162,24 @@
   </path>
   <path>
     <id>biologisches_objekt_existenz</id>
-    <weight>0</weight>
-    <enabled>1</enabled>
+    <weight>3</weight>
+    <enabled>0</enabled>
     <group_id>existenz_objekt</group_id>
     <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
     <field>f7aa0364197449b7e8e940a71df5c3e9</field>
-    <fieldtype>string</fieldtype>
-    <displaywidget>string_textfield</displaywidget>
-    <formatterwidget>wisski_link_formatter</formatterwidget>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
     <cardinality>-1</cardinality>
-    <field_type_informative>string</field_type_informative>
+    <field_type_informative>entity_reference</field_type_informative>
     <path_array>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Existence</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12_occurred_in_the_presence_of</y>
       <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E20_Biological_Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
     </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <datatype_property>empty</datatype_property>
     <short_name/>
     <disamb>3</disamb>
     <description/>
@@ -5667,7 +5289,7 @@
   </path>
   <path>
     <id>materialzuweisung_herstellung</id>
-    <weight>4</weight>
+    <weight>8</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -5696,7 +5318,7 @@
   </path>
   <path>
     <id>technikzuweisung_herstellung</id>
-    <weight>5</weight>
+    <weight>9</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -5804,26 +5426,24 @@
   </path>
   <path>
     <id>art_des_besitz_eigentumswechsels</id>
-    <weight>0</weight>
+    <weight>1</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
     <field>f688cc31a48ff5660649ebfe3716504e</field>
-    <fieldtype>string</fieldtype>
-    <displaywidget>string_textfield</displaywidget>
-    <formatterwidget>string</formatterwidget>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
     <cardinality>-1</cardinality>
-    <field_type_informative>string</field_type_informative>
+    <field_type_informative>entity_reference</field_type_informative>
     <path_array>
       <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
       <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P30i_custody_transferred_through</y>
       <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Acquisition_Type</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment</x>
     </path_array>
-    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <datatype_property>empty</datatype_property>
     <short_name/>
     <disamb>3</disamb>
     <description/>
@@ -5833,7 +5453,7 @@
   </path>
   <path>
     <id>vorbesitzer_assignment</id>
-    <weight>1</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -5862,7 +5482,7 @@
   </path>
   <path>
     <id>nachbesitzer</id>
-    <weight>2</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -5891,7 +5511,7 @@
   </path>
   <path>
     <id>zeitzuweisung_besitzwechsel</id>
-    <weight>3</weight>
+    <weight>8</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -5918,7 +5538,7 @@
   </path>
   <path>
     <id>ortszuweisung_besitzwechsel</id>
-    <weight>4</weight>
+    <weight>9</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -5945,7 +5565,7 @@
   </path>
   <path>
     <id>beschreibung_besitzwechsel</id>
-    <weight>8</weight>
+    <weight>14</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -5972,7 +5592,7 @@
   </path>
   <path>
     <id>quellenverweis</id>
-    <weight>7</weight>
+    <weight>13</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -5999,7 +5619,7 @@
   </path>
   <path>
     <id>im_kontext_von_ereignis_besitzwe</id>
-    <weight>6</weight>
+    <weight>12</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -6026,7 +5646,7 @@
   </path>
   <path>
     <id>quellenverweis_herstellung</id>
-    <weight>6</weight>
+    <weight>10</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -6055,7 +5675,7 @@
   </path>
   <path>
     <id>kosten_eigentumswechsel</id>
-    <weight>5</weight>
+    <weight>4</weight>
     <enabled>1</enabled>
     <group_id>besitz_und_eigentumswechsel</group_id>
     <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
@@ -6129,35 +5749,6 @@
     <name>zugewiesen durch Akteur</name>
   </path>
   <path>
-    <id>zeitzuweisung_rock_genesis</id>
-    <weight>2</weight>
-    <enabled>1</enabled>
-    <group_id>rock_genesis</group_id>
-    <bundle>ba88bb8399cc8c4135e656e96f8cb2db</bundle>
-    <field>f07e8ad60cb63f42dde170bb5e017961</field>
-    <fieldtype>entity_reference</fieldtype>
-    <displaywidget>inline_entity_form_complex</displaywidget>
-    <formatterwidget>entity_reference_entity_view</formatterwidget>
-    <cardinality>-1</cardinality>
-    <field_type_informative>entity_reference</field_type_informative>
-    <path_array>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
-      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Rock_Genesis</x>
-      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
-      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
-    </path_array>
-    <datatype_property>empty</datatype_property>
-    <short_name/>
-    <disamb>4</disamb>
-    <description/>
-    <uuid>822d07b6-1a59-44dc-b08f-1dff32342d6a</uuid>
-    <is_group>0</is_group>
-    <name>Zeitzuweisung</name>
-  </path>
-  <path>
     <id>geburtsdaten_person</id>
     <weight>4</weight>
     <enabled>1</enabled>
@@ -6213,7 +5804,7 @@
   </path>
   <path>
     <id>kosten_herstellung</id>
-    <weight>3</weight>
+    <weight>7</weight>
     <enabled>1</enabled>
     <group_id>herstellung</group_id>
     <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
@@ -6271,7 +5862,7 @@
   </path>
   <path>
     <id>kommentar_creation</id>
-    <weight>3</weight>
+    <weight>6</weight>
     <enabled>1</enabled>
     <group_id>kreation</group_id>
     <bundle>b652c2be9b892f74c17fd9d39b0fb90b</bundle>
@@ -6327,7 +5918,7 @@
   </path>
   <path>
     <id>akteurzuweisung_modifikation</id>
-    <weight>0</weight>
+    <weight>1</weight>
     <enabled>1</enabled>
     <group_id>modifikation</group_id>
     <bundle>b619497be5b3123e4b2c62f662c972c3</bundle>
@@ -6352,7 +5943,7 @@
   </path>
   <path>
     <id>ortszuweisung_modifikation</id>
-    <weight>1</weight>
+    <weight>2</weight>
     <enabled>1</enabled>
     <group_id>modifikation</group_id>
     <bundle>b619497be5b3123e4b2c62f662c972c3</bundle>
@@ -6377,7 +5968,7 @@
   </path>
   <path>
     <id>zeitzuweisung_modifikation</id>
-    <weight>2</weight>
+    <weight>3</weight>
     <enabled>1</enabled>
     <group_id>modifikation</group_id>
     <bundle>b619497be5b3123e4b2c62f662c972c3</bundle>
@@ -6402,7 +5993,7 @@
   </path>
   <path>
     <id>beschreibung_der_massnahme_modif</id>
-    <weight>3</weight>
+    <weight>4</weight>
     <enabled>1</enabled>
     <group_id>modifikation</group_id>
     <bundle>b619497be5b3123e4b2c62f662c972c3</bundle>
@@ -6427,7 +6018,7 @@
   </path>
   <path>
     <id>quellenverweis_modifikation</id>
-    <weight>4</weight>
+    <weight>5</weight>
     <enabled>1</enabled>
     <group_id>modifikation</group_id>
     <bundle>b619497be5b3123e4b2c62f662c972c3</bundle>
@@ -6589,7 +6180,7 @@
   </path>
   <path>
     <id>bearbeitung</id>
-    <weight>35</weight>
+    <weight>36</weight>
     <enabled>1</enabled>
     <group_id>objekt</group_id>
     <bundle>bf410662a16357b7ce77186a7ea569bf</bundle>
@@ -6984,7 +6575,7 @@
   </path>
   <path>
     <id>motiv</id>
-    <weight>0</weight>
+    <weight>32</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>b7152991e3a88a0c0f3227f97fde34a5</bundle>
@@ -7032,7 +6623,7 @@
   </path>
   <path>
     <id>objektart</id>
-    <weight>0</weight>
+    <weight>33</weight>
     <enabled>1</enabled>
     <group_id>0</group_id>
     <bundle>bd43fa950e47c7069aca8868647240a4</bundle>
@@ -7105,7 +6696,7 @@
   </path>
   <path>
     <id>normdaten_objecttype</id>
-    <weight>1</weight>
+    <weight>2</weight>
     <enabled>1</enabled>
     <group_id>objektart</group_id>
     <bundle>bd43fa950e47c7069aca8868647240a4</bundle>
@@ -7476,5 +7067,1514 @@
     <uuid>a650bcf9-1afd-4961-8f6e-8e896dce5c5a</uuid>
     <is_group>0</is_group>
     <name>Motivzuweisung</name>
+  </path>
+  <path>
+    <id>zuweisung_der_ubertragungsart</id>
+    <weight>34</weight>
+    <enabled>1</enabled>
+    <group_id>0</group_id>
+    <bundle>b24932411d6ebfe019b26afcb057ac9e</bundle>
+    <field/>
+    <fieldtype/>
+    <displaywidget/>
+    <formatterwidget/>
+    <cardinality>-1</cardinality>
+    <field_type_informative/>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>980c9054-a457-4f13-8f3e-d5cc7bdd857c</uuid>
+    <is_group>1</is_group>
+    <name>Zuweisung der &#xDC;bertragungsart</name>
+  </path>
+  <path>
+    <id>zugewiesene_art_der_ubertragung</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>zuweisung_der_ubertragungsart</group_id>
+    <bundle>b24932411d6ebfe019b26afcb057ac9e</bundle>
+    <field>f52fe2e67a445fc049b27097f14b4775</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P141_assigned</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Acquisition_Type</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>3d3c1907-7681-4a4f-940f-c98a2c43e6ca</uuid>
+    <is_group>0</is_group>
+    <name>zugewiesene Art der &#xDC;bertragung</name>
+  </path>
+  <path>
+    <id>quellenverweis_uebertragungsartz</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>zuweisung_der_ubertragungsart</group_id>
+    <bundle>b24932411d6ebfe019b26afcb057ac9e</bundle>
+    <field>f55fe0aeaf168bd069a0817bf9d20715</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>b85e3ee4-5e0c-4b10-95fc-a93e1d7f092b</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>objektbewegung_main</id>
+    <weight>35</weight>
+    <enabled>1</enabled>
+    <group_id>0</group_id>
+    <bundle>b81c1d7f00ef012853af3ad0a52926e3</bundle>
+    <field/>
+    <fieldtype/>
+    <displaywidget/>
+    <formatterwidget/>
+    <cardinality>-1</cardinality>
+    <field_type_informative/>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E9_Move</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>1c02ab56-ad3c-45c0-bc82-378475faa4b3</uuid>
+    <is_group>1</is_group>
+    <name>Objektbewegung</name>
+  </path>
+  <path>
+    <id>bewegung_von</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>objektbewegung_main</group_id>
+    <bundle>b81c1d7f00ef012853af3ad0a52926e3</bundle>
+    <field>f6277f2c2b8c2ac7d260935f1d6cfc11</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E9_Move</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Movement_from</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>23f5eacd-90bb-47e4-a4ba-c9b3e5b7444a</uuid>
+    <is_group>0</is_group>
+    <name>Bewegung von</name>
+  </path>
+  <path>
+    <id>bewegung_nach</id>
+    <weight>2</weight>
+    <enabled>1</enabled>
+    <group_id>objektbewegung_main</group_id>
+    <bundle>b81c1d7f00ef012853af3ad0a52926e3</bundle>
+    <field>f6d653c6a700e5ebb5944e913b3e34de</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E9_Move</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Movement_to</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>9ceace56-4a15-4edd-9cfa-ac6ca5b26a12</uuid>
+    <is_group>0</is_group>
+    <name>Bewegung nach</name>
+  </path>
+  <path>
+    <id>objektbewegung_transfer_of_custo</id>
+    <weight>10</weight>
+    <enabled>1</enabled>
+    <group_id>besitz_und_eigentumswechsel</group_id>
+    <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
+    <field>f206d15c80a0893dff04d77f0c35d839</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P30i_custody_transferred_through</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P17i_motivated</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E9_Move</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>bac43eaa-c4a7-4d60-b117-701ccc3bf66a</uuid>
+    <is_group>0</is_group>
+    <name>Objektbewegung</name>
+  </path>
+  <path>
+    <id>im_kontext_von_handlung</id>
+    <weight>11</weight>
+    <enabled>1</enabled>
+    <group_id>besitz_und_eigentumswechsel</group_id>
+    <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
+    <field>fb77b43292a71f666c415aed23ed9571</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P30i_custody_transferred_through</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P10_falls_within</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E35_Title</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>e9acb2b2-52a1-401d-b31d-18c8f24d81c0</uuid>
+    <is_group>0</is_group>
+    <name>im Kontext von Handlung</name>
+  </path>
+  <path>
+    <id>handlung_main</id>
+    <weight>36</weight>
+    <enabled>1</enabled>
+    <group_id>0</group_id>
+    <bundle>b80c1aafa65d52982e44cf7493471b40</bundle>
+    <field/>
+    <fieldtype/>
+    <displaywidget/>
+    <formatterwidget/>
+    <cardinality>-1</cardinality>
+    <field_type_informative/>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>7e35b9a1-f6bb-46fa-81bb-b555bc0197c4</uuid>
+    <is_group>1</is_group>
+    <name>Handlung</name>
+  </path>
+  <path>
+    <id>titel_activity</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>handlung_main</group_id>
+    <bundle>b80c1aafa65d52982e44cf7493471b40</bundle>
+    <field>f540bc5b37b5d0f954c1956edbce4ef0</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>82a55d9f-9407-4962-9360-52793cde0346</uuid>
+    <is_group>0</is_group>
+    <name>Titel/Bezeichnung</name>
+  </path>
+  <path>
+    <id>identifikatorzuweisung</id>
+    <weight>2</weight>
+    <enabled>1</enabled>
+    <group_id>besitz_und_eigentumswechsel</group_id>
+    <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
+    <field>fee5cc4479ef8d243b6122743c867a82</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P30i_custody_transferred_through</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E15_Identifier_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>0742b1df-5ea3-4e70-b065-d3b090587124</uuid>
+    <is_group>0</is_group>
+    <name>Identifikatorzuweisung</name>
+  </path>
+  <path>
+    <id>beteiligte_akteure_transfer_of_c</id>
+    <weight>7</weight>
+    <enabled>1</enabled>
+    <group_id>besitz_und_eigentumswechsel</group_id>
+    <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
+    <field>fae280327a05067153aba39e2b6c8c30</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P30i_custody_transferred_through</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>1b739509-abc3-407b-9b8d-85da5716da76</uuid>
+    <is_group>0</is_group>
+    <name>beteiligte Akteure</name>
+  </path>
+  <path>
+    <id>bezeichnungszuweisung_transfer_o</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>besitz_und_eigentumswechsel</group_id>
+    <bundle>b72dc6cc462dc53cb474b7db141d86ef</bundle>
+    <field>f7047f0503558e7d18b30923c6f3791d</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P30i_custody_transferred_through</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Appellation_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>94986586-2831-4654-a8a6-a66d94d9df39</uuid>
+    <is_group>0</is_group>
+    <name>Bezeichnungszuweisung</name>
+  </path>
+  <path>
+    <id>quellenverweis_research_activity</id>
+    <weight>10</weight>
+    <enabled>1</enabled>
+    <group_id>forschungsaktivitat</group_id>
+    <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
+    <field>fe900aa6a2defc6b065095cf04fd620a</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>400af1c9-9a2a-435e-a64f-29e7bfc0a0f7</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>person</id>
+    <weight>2</weight>
+    <enabled>0</enabled>
+    <group_id>existenz_objekt</group_id>
+    <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
+    <field>fbdb4270da9d6c9b7a7361272f4f14c5</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P11_had_participant</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E21_Person</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>4862d80b-e14a-4c26-9d66-d993697ac5da</uuid>
+    <is_group>0</is_group>
+    <name>Person</name>
+  </path>
+  <path>
+    <id>titel</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>begegnung</group_id>
+    <bundle>bed2ae955bf60a86a2aa4364a4554f07</bundle>
+    <field>fb140a7886ad29d9ff809e4b67f35d75</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E35_Title</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>7ae2b740-0a2d-4794-b753-ff46fca57c42</uuid>
+    <is_group>0</is_group>
+    <name>Titel</name>
+  </path>
+  <path>
+    <id>ist_teil_von_quelleninhalt</id>
+    <weight>4</weight>
+    <enabled>1</enabled>
+    <group_id>quelleninhalt_main</group_id>
+    <bundle>ba1a339b85174c04a8c3419c2d649a2a</bundle>
+    <field>f4c8563f3fdc5c9091a93dfea907be42</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>wisski_link_formatter</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P106i_forms_part_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P48_has_preferred_identifier</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Identifier</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>5737de31-7925-4a11-ac4c-44f0d13180ca</uuid>
+    <is_group>0</is_group>
+    <name>ist Teil von Quelleninhalt</name>
+  </path>
+  <path>
+    <id>bezeichnungszuweisung_forschungs</id>
+    <weight>5</weight>
+    <enabled>0</enabled>
+    <group_id>forschungsaktivitat</group_id>
+    <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
+    <field>ff5faaa45ba7d047a138ea86e680773b</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Appellation_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>fec10f3d-bba3-454e-92b6-e0735484229a</uuid>
+    <is_group>0</is_group>
+    <name>Bezeichnungszuweisung</name>
+  </path>
+  <path>
+    <id>title_modifikation</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>modifikation</group_id>
+    <bundle>b619497be5b3123e4b2c62f662c972c3</bundle>
+    <field>f8876243b8c5b4711a6d116f2cb3e2d6</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E11_Modification</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>4ac24c04-45b2-41a8-92a9-3a34cd21cc89</uuid>
+    <is_group>0</is_group>
+    <name>Titel/Bezeichnung</name>
+  </path>
+  <path>
+    <id>ubergeordneter_begriff_objektart</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>objektart</group_id>
+    <bundle>bd43fa950e47c7069aca8868647240a4</bundle>
+    <field>fda48e37df9939b50ec8479b291c7aad</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>wisski_link_formatter</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Type</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P127_has_broader_term</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object_Type</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>5f8f2b27-8092-4b35-b351-a1aebedde9f3</uuid>
+    <is_group>0</is_group>
+    <name>&#xFC;bergeordneter Begriff</name>
+  </path>
+  <path>
+    <id>rezeption_main</id>
+    <weight>37</weight>
+    <enabled>1</enabled>
+    <group_id>0</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field/>
+    <fieldtype/>
+    <displaywidget/>
+    <formatterwidget/>
+    <cardinality>-1</cardinality>
+    <field_type_informative/>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>7ab55ac8-340e-4fa9-8b39-cc92e755301a</uuid>
+    <is_group>1</is_group>
+    <name>Rezeption</name>
+  </path>
+  <path>
+    <id>titel_bezeichnung_rezeption</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>f3922f0fc3d94130dce2c29be44ecd07</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>ee10e763-e0c6-46e5-bd56-c64e8640bb1a</uuid>
+    <is_group>0</is_group>
+    <name>Titel/Bezeichnung</name>
+  </path>
+  <path>
+    <id>beschreibung_rezeption</id>
+    <weight>2</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>f4e97d4e4859e80d200653100d72a3b0</field>
+    <fieldtype>string_long</fieldtype>
+    <displaywidget>string_textarea</displaywidget>
+    <formatterwidget>basic_string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string_long</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Description</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>e93e85dd-f1bd-48e9-a659-e85811255439</uuid>
+    <is_group>0</is_group>
+    <name>Beschreibung</name>
+  </path>
+  <path>
+    <id>akteurzuweisung_rezeption</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>f7053490a0a25fee0f3785d06a01dcad</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>e8354672-61b1-49e2-9924-3f3a3a0902c1</uuid>
+    <is_group>0</is_group>
+    <name>Akteurzuweisung</name>
+  </path>
+  <path>
+    <id>zeitzuweisung_rezeption</id>
+    <weight>4</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>fe35375c443c100763af7f39329c62e6</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>81110ffb-8a4e-40fd-bd73-192f02f2ea76</uuid>
+    <is_group>0</is_group>
+    <name>Zeitzuweisung</name>
+  </path>
+  <path>
+    <id>quellenverweis_rezeption</id>
+    <weight>6</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>f57e84ee21991e3039c79c2a7e17a4ba</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>a08525ac-c287-4d2c-8802-6b1c3a261e82</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>ortszuweisung_rezeption</id>
+    <weight>5</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>f38c2792756324a59960c6a4aef53161</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>453863fe-9d69-4a0e-a960-bd67aa422f2f</uuid>
+    <is_group>0</is_group>
+    <name>Ortszuweisung</name>
+  </path>
+  <path>
+    <id>rezeption_object</id>
+    <weight>33</weight>
+    <enabled>1</enabled>
+    <group_id>objekt</group_id>
+    <bundle>bac96148b522de5ca00d75fbd0a08f98</bundle>
+    <field>f928c2a7a012673a0a7d188e8e896370</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>4824244e-3817-48a0-867a-bd0903bba2c8</uuid>
+    <is_group>0</is_group>
+    <name>Rezeption</name>
+  </path>
+  <path>
+    <id>bildgebendes_verfahren_main</id>
+    <weight>38</weight>
+    <enabled>1</enabled>
+    <group_id>0</group_id>
+    <bundle>baccc7b802309754b3f8bd4ae7a7e55b</bundle>
+    <field/>
+    <fieldtype/>
+    <displaywidget/>
+    <formatterwidget/>
+    <cardinality>-1</cardinality>
+    <field_type_informative/>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>814df7a8-db32-4821-816b-193695453a4c</uuid>
+    <is_group>1</is_group>
+    <name>Bildgebendes Verfahren</name>
+  </path>
+  <path>
+    <id>beschreibung_bildgebendes_verfah</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>bildgebendes_verfahren_main</group_id>
+    <bundle>baccc7b802309754b3f8bd4ae7a7e55b</bundle>
+    <field>f2f6ef330ba4d0b670ef85cbdcfb6321</field>
+    <fieldtype>string_long</fieldtype>
+    <displaywidget>string_textarea</displaywidget>
+    <formatterwidget>basic_string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string_long</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Description</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>8dd5ec81-9841-437a-a555-bcee8783d382</uuid>
+    <is_group>0</is_group>
+    <name>Beschreibung</name>
+  </path>
+  <path>
+    <id>bildgebendes_ver_akteurzuweisung</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>bildgebendes_verfahren_main</group_id>
+    <bundle>baccc7b802309754b3f8bd4ae7a7e55b</bundle>
+    <field>f1ffa8bdd7673a3d66c194b05d02c20e</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>177bdf5a-597c-495d-8ad6-c7ddd026f7e6</uuid>
+    <is_group>0</is_group>
+    <name>Akteurzuweisung</name>
+  </path>
+  <path>
+    <id>bildgebendes_verf_zeitzuweisung</id>
+    <weight>2</weight>
+    <enabled>1</enabled>
+    <group_id>bildgebendes_verfahren_main</group_id>
+    <bundle>baccc7b802309754b3f8bd4ae7a7e55b</bundle>
+    <field>f4e6e0fe8b14a5d9a524a5b89e50f982</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>3abd3fd4-bcfa-4492-9fa8-6e33fae9076f</uuid>
+    <is_group>0</is_group>
+    <name>Zeitzuweisung</name>
+  </path>
+  <path>
+    <id>3d_modell</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>bildgebendes_verfahren_main</group_id>
+    <bundle>baccc7b802309754b3f8bd4ae7a7e55b</bundle>
+    <field>f97ac12999e4f969b87341197de34abe</field>
+    <fieldtype>link</fieldtype>
+    <displaywidget>link_default</displaywidget>
+    <formatterwidget>link</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>link</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/3D_Model</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/URL</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>0abd6135-8e8f-4ba9-b7e5-fff23c216ede</uuid>
+    <is_group>0</is_group>
+    <name>3D Modell</name>
+  </path>
+  <path>
+    <id>bild_bildgebendes_verfahren</id>
+    <weight>4</weight>
+    <enabled>1</enabled>
+    <group_id>bildgebendes_verfahren_main</group_id>
+    <bundle>baccc7b802309754b3f8bd4ae7a7e55b</bundle>
+    <field>f56f902a14e3a0a5f3e9e6bc95fb9e03</field>
+    <fieldtype>image</fieldtype>
+    <displaywidget>image_image</displaywidget>
+    <formatterwidget>image</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>image</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Imaging_Procedure</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P94_has_created</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Image</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/URL</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>e1c60ac2-b1c6-4412-b42a-fd9e5de0e81a</uuid>
+    <is_group>0</is_group>
+    <name>Bild</name>
+  </path>
+  <path>
+    <id>materieller_gegenstand_main</id>
+    <weight>39</weight>
+    <enabled>1</enabled>
+    <group_id>0</group_id>
+    <bundle>bc46c29ae148d64c4151515acf37b5a1</bundle>
+    <field/>
+    <fieldtype/>
+    <displaywidget/>
+    <formatterwidget/>
+    <cardinality>-1</cardinality>
+    <field_type_informative/>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E19_Physical_Object</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>a0ceb5c5-09c5-448b-9d8f-c35ef600bdd8</uuid>
+    <is_group>1</is_group>
+    <name>Materieller Gegenstand</name>
+  </path>
+  <path>
+    <id>art_der_aktivitat</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>forschungsaktivitat</group_id>
+    <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
+    <field>fb4e5a8ebf95ae30847ae5d9e17c9ab6</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity_Type</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>d6833f70-423e-460b-bdcb-aeffc97be103</uuid>
+    <is_group>0</is_group>
+    <name>Art der Aktivit&#xE4;t</name>
+  </path>
+  <path>
+    <id>bezeichnung_physical_thing</id>
+    <weight>41</weight>
+    <enabled>1</enabled>
+    <group_id>materieller_gegenstand_main</group_id>
+    <bundle>bc46c29ae148d64c4151515acf37b5a1</bundle>
+    <field>f51c4954b170c1742a31785b30f866a8</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E19_Physical_Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>794b9f08-b638-402c-a55a-9546cfd352ac</uuid>
+    <is_group>0</is_group>
+    <name>Bezeichnung</name>
+  </path>
+  <path>
+    <id>materieller_gegenstand_existence</id>
+    <weight>4</weight>
+    <enabled>0</enabled>
+    <group_id>existenz_objekt</group_id>
+    <bundle>bf08a2595eef63bfd046f26798fd8e17</bundle>
+    <field>ff3b4feea43cc9b3236bee928bece986</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12_occurred_in_the_presence_of</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E19_Physical_Object</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>3eece8aa-d0fe-438b-b79d-0ea0ab45d19d</uuid>
+    <is_group>0</is_group>
+    <name>Materieller Gegenstand</name>
+  </path>
+  <path>
+    <id>erdzeitliche_entstehung_physical</id>
+    <weight>42</weight>
+    <enabled>1</enabled>
+    <group_id>materieller_gegenstand_main</group_id>
+    <bundle>bc46c29ae148d64c4151515acf37b5a1</bundle>
+    <field>f89d2bdca50583b3e6967585155706e8</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E19_Physical_Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Time_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>f05a5934-40d4-4c74-8a2b-090b982bdf9b</uuid>
+    <is_group>0</is_group>
+    <name>Zuweisung einer Entstehungszeit</name>
+  </path>
+  <path>
+    <id>verwendetes_biologisches_objekt</id>
+    <weight>2</weight>
+    <enabled>1</enabled>
+    <group_id>herstellung</group_id>
+    <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
+    <field>fb071f5bb72a1e8c7d76a101f48a88b9</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E12_Production</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E20_Biological_Object</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>4</disamb>
+    <description/>
+    <uuid>19c89354-a2e7-477f-8fa9-5b51340de6c2</uuid>
+    <is_group>0</is_group>
+    <name>verwendetes biologisches Objekt</name>
+  </path>
+  <path>
+    <id>verwendetes_menschliches_objekt</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>herstellung</group_id>
+    <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
+    <field>f975e38741782b10dbadaf9d9c3b10b1</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E12_Production</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E21_Person</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>4</disamb>
+    <description/>
+    <uuid>cf03c244-5c7f-4aad-a7e2-e32d6a4de03c</uuid>
+    <is_group>0</is_group>
+    <name>verwendetes menschliches Objekt</name>
+  </path>
+  <path>
+    <id>verwendeter_materieller_gegensta</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>herstellung</group_id>
+    <bundle>b343cd4a6e2d8ed144eb9880d32637d3</bundle>
+    <field>f4e955aa55a4f546957079ae22b168c8</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E12_Production</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P16_used_specific_object</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E19_Physical_Object</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>4</disamb>
+    <description/>
+    <uuid>d9348af2-6bb9-4b79-b168-a1beb38e2922</uuid>
+    <is_group>0</is_group>
+    <name>verwendeter materieller Gegenstand</name>
+  </path>
+  <path>
+    <id>art_der_handlung</id>
+    <weight>2</weight>
+    <enabled>0</enabled>
+    <group_id>forschungsaktivitat</group_id>
+    <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
+    <field>f713433c23f473b339bad8b0d7c02445</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Activity_Type</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>521a92f1-9792-4723-89b3-a17b16fdc95c</uuid>
+    <is_group>0</is_group>
+    <name>Art der Handlung</name>
+  </path>
+  <path>
+    <id>rolle_des_akteurs</id>
+    <weight>4</weight>
+    <enabled>1</enabled>
+    <group_id>akteurszuweisung</group_id>
+    <bundle>b1813b50c032a2fbc1d78ea28c98f30c</bundle>
+    <field>f58baf44b4fc18a32723bc60e881549f</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P141_assigned</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Role</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>9d07b22e-5078-434f-ae90-df7f8b42312c</uuid>
+    <is_group>0</is_group>
+    <name>Rolle des Akteurs</name>
+  </path>
+  <path>
+    <id>quellenverweis_aneignung</id>
+    <weight>7</weight>
+    <enabled>1</enabled>
+    <group_id>aneignung</group_id>
+    <bundle>bf0df3a18f62219876b7e4a6c02d493a</bundle>
+    <field>ffe6dc9a60d5b15dd1fb1e0f67a72e04</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P132_spatiotemporally_overlaps_with</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Appropriation</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>4</disamb>
+    <description/>
+    <uuid>00250069-4c74-4f1e-afff-792d4f92e38a</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>quellenverweis_beauftragung</id>
+    <weight>4</weight>
+    <enabled>1</enabled>
+    <group_id>beauftragung</group_id>
+    <bundle>b5e88501f367af36cacfa4d629633a80</bundle>
+    <field>f572a19932d131297f2915f668081d72</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P20i_was_purpose_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Commissioning</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>4</disamb>
+    <description/>
+    <uuid>907d34cf-4756-4850-a4a6-4ff3e8617bd5</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>quellenverweis_creation</id>
+    <weight>7</weight>
+    <enabled>1</enabled>
+    <group_id>kreation</group_id>
+    <bundle>b652c2be9b892f74c17fd9d39b0fb90b</bundle>
+    <field>f81d144ac8cf12ad91b5ceca2e77b4fe</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P92i_was_brought_into_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P9_consists_of</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E65_Creation</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>4</disamb>
+    <description/>
+    <uuid>ae078269-d68e-4a76-ba18-cd9a8e308e05</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>url_quellenverweis</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>quellenverweis_main</group_id>
+    <bundle>b5ebd529444ab8be83c176063e91be70</bundle>
+    <field>fb90fbfb06b4075669b1e8f2deb422fb</field>
+    <fieldtype>link</fieldtype>
+    <displaywidget>link_default</displaywidget>
+    <formatterwidget>link</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>link</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/URL</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>8b3badbb-a052-4514-a7de-70f8ba8245e1</uuid>
+    <is_group>0</is_group>
+    <name>URL</name>
+  </path>
+  <path>
+    <id>art_des_quelleninhalts</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>quelleninhalt_main</group_id>
+    <bundle>ba1a339b85174c04a8c3419c2d649a2a</bundle>
+    <field>f1ddd38239549e0fadf8d9fc2e748e08</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Type</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>12accd4d-f039-49b3-b60a-8653cb4dff4a</uuid>
+    <is_group>0</is_group>
+    <name>Art des Quelleninhalts</name>
+  </path>
+  <path>
+    <id>akteurzuweisung_zerstoerung</id>
+    <weight>8</weight>
+    <enabled>1</enabled>
+    <group_id>zerstorung</group_id>
+    <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
+    <field>f6dc75d4102cbb631556a6a13349b7d4</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P93i_was_taken_out_of_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E6_Destruction</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>a8c55aed-97a6-4c5a-9e49-697202fb07d4</uuid>
+    <is_group>0</is_group>
+    <name>Akteurzuweisung</name>
+  </path>
+  <path>
+    <id>beschreibung_zerstoerung</id>
+    <weight>6</weight>
+    <enabled>1</enabled>
+    <group_id>zerstorung</group_id>
+    <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
+    <field>fd54901bb15cb4c7fc4eb90662fb96c6</field>
+    <fieldtype>string_long</fieldtype>
+    <displaywidget>string_textarea</displaywidget>
+    <formatterwidget>basic_string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string_long</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P93i_was_taken_out_of_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E6_Destruction</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Description</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>0</disamb>
+    <description/>
+    <uuid>22960310-4f61-4721-a532-79bc96be2d19</uuid>
+    <is_group>0</is_group>
+    <name>Beschreibung</name>
+  </path>
+  <path>
+    <id>quellenverweis_zerstoerung</id>
+    <weight>11</weight>
+    <enabled>1</enabled>
+    <group_id>zerstorung</group_id>
+    <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
+    <field>f76390c04d23d82b871736f9267c543a</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P93i_was_taken_out_of_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E6_Destruction</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P129i_is_subject_of</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Source_Content_Section</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>7a23f220-c25b-4bd1-9a06-56668e2e1c12</uuid>
+    <is_group>0</is_group>
+    <name>Quellenverweis</name>
+  </path>
+  <path>
+    <id>ortszuweisung_zerstoerung</id>
+    <weight>10</weight>
+    <enabled>1</enabled>
+    <group_id>zerstorung</group_id>
+    <bundle>b3b7b17db719084b078382c2a8015d6d</bundle>
+    <field>f79c11ef15f59c8ebc136f482aa83854</field>
+    <fieldtype>entity_reference</fieldtype>
+    <displaywidget>inline_entity_form_complex</displaywidget>
+    <formatterwidget>entity_reference_entity_view</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>entity_reference</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P93i_was_taken_out_of_existence_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E6_Destruction</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P140i_was_attributed_by</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Place_Assignment</x>
+    </path_array>
+    <datatype_property>empty</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>f4aa8139-c9cf-4a44-88ee-93cd8a6704c7</uuid>
+    <is_group>0</is_group>
+    <name>Ortszuweisung</name>
+  </path>
+  <path>
+    <id>art_der_objektbewegung</id>
+    <weight>0</weight>
+    <enabled>1</enabled>
+    <group_id>objektbewegung_main</group_id>
+    <bundle>b81c1d7f00ef012853af3ad0a52926e3</bundle>
+    <field>f16abd978b65e8cf8ae400a634aa3071</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E9_Move</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Type_of_Move</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>2</disamb>
+    <description/>
+    <uuid>60d0d3ab-655c-4735-a536-4f0fa3402f75</uuid>
+    <is_group>0</is_group>
+    <name>Art der Objektbewegung</name>
+  </path>
+  <path>
+    <id>art_der_rezeption</id>
+    <weight>1</weight>
+    <enabled>1</enabled>
+    <group_id>rezeption_main</group_id>
+    <bundle>b9353ea6caf9a50cae0146a3cc052584</bundle>
+    <field>fc9e2204a25766935da987a793bd682c</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>string</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P2_has_type</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Type_of_Reception</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>209b0be9-d3ee-4234-8b8b-9deb2676566d</uuid>
+    <is_group>0</is_group>
+    <name>Art der Rezeption</name>
+  </path>
+  <path>
+    <id>im_kontext_von_ereignis_forschun</id>
+    <weight>4</weight>
+    <enabled>1</enabled>
+    <group_id>forschungsaktivitat</group_id>
+    <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
+    <field>fdfe7e3771b95eebf48efa00a3d96412</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>wisski_link_formatter</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P10_falls_within</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>e97baede-7931-4b5e-bba9-212acb805fbf</uuid>
+    <is_group>0</is_group>
+    <name>im Kontext von Ereignis</name>
+  </path>
+  <path>
+    <id>im_kontext_von_handlung_forschun</id>
+    <weight>3</weight>
+    <enabled>1</enabled>
+    <group_id>forschungsaktivitat</group_id>
+    <bundle>b8a72556f6f8957b5259122d190c67c8</bundle>
+    <field>f6395ad2894f784209755ec26198b882</field>
+    <fieldtype>string</fieldtype>
+    <displaywidget>string_textfield</displaywidget>
+    <formatterwidget>wisski_link_formatter</formatterwidget>
+    <cardinality>-1</cardinality>
+    <field_type_informative>string</field_type_informative>
+    <path_array>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Object</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P12i_was_present_at</y>
+      <x>https://nfdi4objects.wisski.data.fau.de/ontology/Research_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P10_falls_within</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity</x>
+      <y>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P1_is_identified_by</y>
+      <x>http://www.cidoc-crm.org/cidoc-crm/7.1.3/E41_Appellation</x>
+    </path_array>
+    <datatype_property>http://www.cidoc-crm.org/cidoc-crm/7.1.3/P3_has_note</datatype_property>
+    <short_name/>
+    <disamb>3</disamb>
+    <description/>
+    <uuid>8085778b-b1a7-473b-8d5b-67723f3e7cfc</uuid>
+    <is_group>0</is_group>
+    <name>im Kontext von Handlung</name>
   </path>
 </pathbuilderinterface>
