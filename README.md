@@ -10,3 +10,4 @@ Dieses Repository beinhaltet:
 - [WissKI Pathbuilder Templates mit den semantischen Pfaden der Objektbiografie bzw. ObjectBiography](pathbuilder_template_objectbiography) (XML)
 - [Publikationen zur Ontologie](presentations)
 
+Publikationen in NFDI4Objects finden sich hier bei [Zenodo](https://zenodo.org/communities/nfdi4objects/records?q=&l=list&p=1&s=10&sort=newest).
