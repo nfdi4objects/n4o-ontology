@@ -6,7 +6,7 @@ In Task Area 6 "Qualification, Integration, Harmonisation" entwickeln das Compet
  
 Dieses Repository beinhaltet: 
 
-- [die Object Biography Ontology](nfdi4objects.rdf) (OWL)
+- [die Objects Ontology](nfdi4objects.rdf) (OWL)
 - [WissKI Pathbuilder Templates mit den semantischen Pfaden der Objektbiografie bzw. ObjectBiography & Minimaldatensatz bzw. Minimal Dataset](pathbuilder_template_objectbiography) (XML)
 - [Publikationen zur Ontologie](presentations)
 
