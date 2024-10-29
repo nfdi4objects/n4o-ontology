@@ -6,8 +6,8 @@ In Task Area 6 "Qualification, Integration, Harmonisation" entwickeln das Compet
  
 Dieses Repository beinhaltet: 
 
-- [die N4O Objects Ontology](nfdi4objects.rdf) (OWL)
-- [WissKI Pathbuilder Templates mit dem Datenmodell der Objektbiografie bzw. Object Biography & Minimaldatensatz bzw. Minimal Dataset](pathbuilder_template_objectbiography) (XML)
+- [die N4O Objects Ontology] (OWL)
+- [WissKI Pathbuilder Templates mit dem Datenmodell der Objektbiografie bzw. Object Biography & Minimaldatensatz bzw. Minimal Dataset] (XML)
 - [Publikationen zur Ontologie- und Datenmodellentwicklung](presentations)
 
 Publikationen in NFDI4Objects finden sich hier bei [Zenodo](https://zenodo.org/communities/nfdi4objects/records?q=&l=list&p=1&s=10&sort=newest).
