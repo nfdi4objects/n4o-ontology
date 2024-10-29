@@ -1,2 +1,2 @@
-Die NFDI4Objects Objects Ontology basiert auf dem CIDOC CRM Version 7.1.3, die die letzte gültige ISO 21127-Entsprechung darstellt.
-Mit dieser Ontologie wird das Datenmodell für die Objektbiografie in WissKI entwickelt.
+Die NFDI4Objects Objects Ontology basiert auf dem CIDOC CRM Version 7.1.3 [https://www.cidoc-crm.org/html/cidoc_crm_v7.1.3.html], die die letzte gültige ISO 21127-Entsprechung darstellt. Mit dieser Ontologie wird das Datenmodell für die NFDI4Objects Object Biography in WissKI entwickelt, ebenso das Datenmodell für das NFDI4Objects Minimal Metadataset.
+Die Ontologie befindet sich in Entwicklung. Scope Notes müssen beispielsweise noch ergänzt werden.
