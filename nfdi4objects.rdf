@@ -14700,7 +14700,8 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Collectionsystematics">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
-        <owl:priorVersion xml:lang="de">Sammlungssystematik</owl:priorVersion>
+        <rdfs:label xml:lang="en">Collection Systematics</rdfs:label>
+        <rdfs:label xml:lang="de">Sammlungssystematik</rdfs:label>
     </owl:Class>
     
 
@@ -14744,7 +14745,18 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Corporate_Body_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
-        <owl:priorVersion xml:lang="de">Körperschaftsart</owl:priorVersion>
+        <rdfs:label xml:lang="en">Corporate Body Type</rdfs:label>
+        <rdfs:label xml:lang="de">Körperschaftsart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Cultural_Activity -->
+
+    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Cultural_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
+        <rdfs:label xml:lang="en">Cultural Activity</rdfs:label>
+        <rdfs:label xml:lang="de">Kulturelle Handlung</rdfs:label>
     </owl:Class>
     
 
@@ -14835,6 +14847,7 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Excavation">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
+        <rdfs:comment xml:lang="en">Equals A9 Archaeological Excavation in CRMArchaeo</rdfs:comment>
         <rdfs:label xml:lang="de">Grabung</rdfs:label>
     </owl:Class>
     
@@ -14854,6 +14867,7 @@ In First Order Logic:
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Exhibition_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
         <rdfs:label xml:lang="de">Ausstellungsart</rdfs:label>
+        <rdfs:label xml:lang="en">Exhibition Type</rdfs:label>
     </owl:Class>
     
 
@@ -14914,7 +14928,21 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Geographical_Place">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E53_Place"/>
-        <rdfs:label xml:lang="de">Geographischer_Ort</rdfs:label>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst die Strukturierung von geografischen Elementen, insbesondere auf der bewohnbaren Erdoberfläche. Dazu gehören vom Menschen geschaffene und natürliche geografische Merkmale wie Wohnhäuser, Landkreise, Wasserstraßen, Berge (Gebirge), etc. Geographische Orte können 3-dimensional sein und sich in den Raum oder auf erdigem Boden erstrecken. (z.B. Höhlen).
+Typischerweise können sie von Ortsverzeichnissen, z.B. GeoNamen, herangezogen und nach S24_Geographical_Unit kategorisiert werden.
+
+Beispiele:
+- Paris (nur die Geographie, nicht die physische Einheit oder das Verwaltungsorgan! Sie kann jedoch als geographische Einheit &quot;Wohnung&quot; oder &quot;Stadt&quot; kategorisiert werden.)
+- Die Alpen
+- Tethys</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises structuring geographical elements, esp. on earth&apos;s habitable surface. This includes man made and natural geographic features, like dwellings, counties, water ways, mountain (ranges), etc. Geographical places may be 3-dimensional and extend into space or earthen ground. (e.g. caves). Typically they can be referred to by gazetteers, e.g. GeoNames, and can be categorized by S24_Geographical_Unit.
+
+Examples:
+- Paris (just the geography, not the physical entity or administrative body! It may, however, be categorized as geographical unit &quot;dwelling&quot; or &quot;city&quot;)
+- The Alps
+- Tethys</rdfs:comment>
+        <rdfs:label xml:lang="en">Geographical Place</rdfs:label>
+        <rdfs:label xml:lang="de">Geographischer Ort</rdfs:label>
     </owl:Class>
     
 
@@ -15053,6 +15081,23 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Location">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E53_Place"/>
+        <rdfs:comment xml:lang="en">A location is a place that is used to locate things on a sub-geographical level. Other than
+geographical places they may not have a place name and are not found in gazetteers like GeoNames, but are described/circumscribed, mostly by &quot;speaking titles&quot;. A location may be specified by spatial coordinates, though.
+For geographical reference, a location can be linked to the/a geographical place that it is in.
+
+Example:
+- An specific individual plant was found &quot;under the first oak tree to the left of the main gate&quot;.
+- An object&apos;s location is on shelf &quot;XII-3&quot;.
+- An object was found &quot;in the remnants of building X&quot;. (where building X could be the surrounding geographical place.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Ein Standort ist ein Ort, der dazu dient, Dinge auf einer subgeographischen Ebene zu lokalisieren. Anders als geografische Orte haben sie möglicherweise keinen Ortsnamen und sind nicht in Ortsverzeichnissen wie GeoNames zu finden, sondern werden beschrieben/umgeschrieben, meist durch &quot;sprechende Titel&quot;. Ein Standort kann jedoch durch räumliche Koordinaten angegeben werden.
+Als geographische Referenz kann ein Standort mit dem/einem geografischen Ort, an dem er sich befindet, verknüpft werden.
+
+Beispiel:
+- Eine bestimmte Einzelpflanze wurde &quot;unter der ersten Eiche links vom Haupttor&quot; gefunden.
+- Die Position eines Objekts befindet sich im Regal &quot;XII-3&quot;.
+- Ein Objekt wurde &quot;in den Überresten des Gebäudes X&quot; gefunden. (wobei Gebäude X der umgebende
+geografische Ort sein könnte.</rdfs:comment>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
         <rdfs:label xml:lang="de">Lokation</rdfs:label>
     </owl:Class>
     
@@ -15114,6 +15159,9 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E22_Human-Made_Object"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst konkrete materielle Hinterlassenschaften der Menschheits- und Umweltgeschichte, die von menschlicher Aktivität bewusst zum Bestand einer Sammlung (E78 Curated Holding) hinzugefügt wurden und kuratorisch von einem oder mehreren Akteuren (E39 Actor) betreut werden.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class includes concrete material remains of human and environmental history, that have intentionally been added by human activity to the inventory of a collection (E78 Curated Holding) and curated by one or more instances of E39 Actor over time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Object</rdfs:label>
         <rdfs:label xml:lang="de">Objekt</rdfs:label>
     </owl:Class>
     
@@ -15177,6 +15225,7 @@ In First Order Logic:
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Profession">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
         <rdfs:label xml:lang="de">Beruf</rdfs:label>
+        <rdfs:label xml:lang="en">Profession</rdfs:label>
     </owl:Class>
     
 
@@ -15230,7 +15279,10 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Source">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E22_Human-Made_Object"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Quellmaterialien wie Schrift- und Bildgut, die Instanzen der Klasse Objekt und die damit verbundenen Kontexte und Ereignisse dokumentieren.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class includes sources such as written and pictorial material that document instances of the Object class and the associated contexts and events.</rdfs:comment>
         <rdfs:label xml:lang="de">Quellenträger</rdfs:label>
+        <rdfs:label xml:lang="en">Source</rdfs:label>
     </owl:Class>
     
 
