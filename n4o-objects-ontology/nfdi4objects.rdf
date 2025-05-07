@@ -14829,7 +14829,7 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
-        <rdfs:comment>Equals S19 Encounter Event in CRMArchaeo</rdfs:comment>
+        <rdfs:comment>Equals S19 Encounter Event in CRMSci</rdfs:comment>
         <rdfs:label xml:lang="de">Begegnung</rdfs:label>
     </owl:Class>
     
@@ -14908,14 +14908,6 @@ In First Order Logic:
     
 
 
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Foundation -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Foundation">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E63_Beginning_of_Existence"/>
-    </owl:Class>
-    
-
-
     <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Geo_Coordinates -->
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Geo_Coordinates">
@@ -14943,15 +14935,6 @@ Examples:
 - Tethys</rdfs:comment>
         <rdfs:label xml:lang="en">Geographical Place</rdfs:label>
         <rdfs:label xml:lang="de">Geographischer Ort</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Global_Stratigraphic_Period -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Global_Stratigraphic_Period">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E4_Period"/>
-        <rdfs:label xml:lang="de">Globale_Stratigraphische_Periode</rdfs:label>
     </owl:Class>
     
 
@@ -15064,15 +15047,6 @@ Examples:
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
         <rdfs:label xml:lang="de">Literaturart</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Local_Stratigraphic_Period -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Local_Stratigraphic_Period">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E4_Period"/>
-        <rdfs:label xml:lang="de">Lokale_Stratigraphische_Periode</rdfs:label>
     </owl:Class>
     
 
@@ -15314,20 +15288,11 @@ geografische Ort sein könnte.</rdfs:comment>
     
 
 
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Stratigraphic_Period_Assignment -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Stratigraphic_Period_Assignment">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment"/>
-        <rdfs:label xml:lang="de">Zuweisung_Stratigrafische_Periode</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Surrender_of_Custody -->
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Surrender_of_Custody">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody"/>
-        <rdfs:label xml:lang="de">Abgane des Gewahrsams</rdfs:label>
+        <rdfs:label xml:lang="de">Abgabe des Gewahrsams</rdfs:label>
     </owl:Class>
     
 
