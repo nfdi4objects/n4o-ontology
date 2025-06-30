@@ -14595,6 +14595,12 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Accession">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E10_Transfer_of_Custody"/>
+        <rdfs:comment xml:lang="de">Diese Klasse beschreibt den Vorgang des physischen Zugangs von Instanzen der Klasse Objekt (nfdi4objects:Object) in eine sammelnde Einrichtung. Die Akzession eines Objekts folgt auf die Akquisition bzw. den Erwerb (crm:E8_Acquisition) als rechtlichen Akt, im Kontext der Museums-/Sammlungszugehörigkeit (Museum_or_Collection_Affiliation).
+
+Beispiel: Der Zugang des Behaim Globus im Jahr 1906 als Leihgabe ins Germanische Nationalmuseum Nürnberg.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class describes the process of physical access of instances of the Object class (nfdi4objects:Object) to a collecting institution. The accession of an object follows the acquisition or purchase (crm:E8_Acquisition) as a legal act, in the context of museum/collection affiliation (Museum_or_Collection_Affiliation).
+
+Example: The acquisition of the Behaim Globe in 1906 as a loan to the Germanisches Nationalmuseum Nuremberg.</rdfs:comment>
         <rdfs:label xml:lang="de">Akzession</rdfs:label>
     </owl:Class>
     
@@ -14604,6 +14610,14 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/AcquisitionType_Assignment">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E17_Type_Assignment"/>
+        <rdfs:comment xml:lang="de">Diese Klasse beschreibt die Zuweisung der Art eines Erwerbs bzw. eines Übertrags von Instanzen der Klasse Objekt (nfdi4objects_Object) im Kontext eines Besitz- oder Eigentumswechsels (crm:E10_Transfer_of_Custody) zwischen zwei Akteuren (Vorbesitzer und Nachbesitzer) und belegt durch möglichst genaue Quellenangabe (nfdi4objects:Source_Content_Section), woher diese Informationen stammen.
+
+Beispiel: 
+Die Zuweisung der Art des Erwerbs &quot;Raub&quot; des Idia Elfenbeinanhängers, der sich heute im British Museum unter der Inventarnummer BM_Af1910_5-13_1 befindet, durch Britische Truppen vom Königreich Benin im Rahmen der Strafexpedition 1897 laut Angabe im Onlineportal Digital Benin unter der URL https://digitalbenin.org/catalogue/5_Af191005131.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class describes the assignment of the type of acquisition or transfer of instances of the Object class (nfdi4objects_Object) in the context of a change of ownership (crm:E10_Transfer_of_Custody) between two actors (previous owner and subsequent owner) and documents where this information comes from by specifying the source as precisely as possible (nfdi4objects:Source_Content_Section).
+
+Example:
+The attribution of the type of acquisition &quot;looting&quot; of the Idia ivory pendant, which is now in the British Museum under the inventory number BM_Af1910_5-13_1, by British troops from the Kingdom of Benin as part of the 1897 punitive expedition according to the information in the online portal Digital Benin at the URL https://digitalbenin.org/catalogue/5_Af191005131.</rdfs:comment>
     </owl:Class>
     
 
@@ -14612,7 +14626,21 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Acquisition_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
-        <rdfs:label xml:lang="de">Akquisitionsart</rdfs:label>
+        <rdfs:comment xml:lang="de">Diese Klasse klassifiziert alle Arten von Besitz- oder Eigentumserwerb, die die Akquisition (crm:E8_Acquisition) einer Instanz der Klasse Objekt (nfdi4objects:Object) in eine Sammlung (crm:E78_Curated_Holding) beschreiben.
+
+Beispiele: 
+- Schenkung
+- Kauf
+- Leihgabe
+- Stiftung</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class classifies all types of possession or ownership acquisition that describe the acquisition (crm:E8_Acquisition) of an instance of the Object class (nfdi4objects:Object) into a collection (crm:E78_Curated_Holding).
+
+Examples: 
+- donation
+- purchase
+- loan
+- foundation</rdfs:comment>
+        <rdfs:label xml:lang="de">Erwerbsart</rdfs:label>
     </owl:Class>
     
 
@@ -14630,15 +14658,15 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Actor_Assignment">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment"/>
+        <rdfs:comment xml:lang="de">Diese Klasse beschreibt die Zuweisung eines Akteurs (crm:E39_Actor) im Kontext eines Ereignisses (crm:E5_Event). Sie beschreibt, welche konkreten Akteure (crm:E21_Person, nfdi4objects:Corporate_Body, nfdi4objects:Socienty_of_Origin) dabei zugewiesen wurden, welche Rolle (nfdi4objects:Role) diese innehatten und belegt durch möglichst genaue Quellenangabe (nfdi4objects:Source_Content_Section), woher diese Informationen stammen.
+
+Beispiel: 
+Die Zuweisung von Hans Glockengießer im Kontext der Herstellung des Behaim Globus, wobei ihm die Rolle des Herstellers der Lehmkugel zukam. Diese Aussage stammt aus der Quelle &quot;Urkundliche Beiträge zur Geschichte der Bücherei des Nürnberger Rates, 1429–1538 (Die Ausgaben der Losunger auf M. Behaims “Mappa Mundi” 1494 und 1510)&quot; von J. Petz aus dem Jahr 1886.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class describes the assignment of an actor (crm:E39_Actor) in the context of an event (crm:E5_Event). It describes which specific actors (crm:E21_Person, nfdi4objects:Corporate_Body, nfdi4objects:Socienty_of_Origin) were assigned, which role (nfdi4objects:Role) they had and documents where this information comes from by specifying the source as precisely as possible (nfdi4objects:Source_Content_Section).
+
+Example:
+The attribution of Hans Glockengießer in the context of the production of the Behaim globe, whereby he was assigned the role of maker of the clay sphere. This statement comes from the source &quot;Urkundliche Beiträge zur Geschichte der Bücherei des Nürnberger Rates, 1429-1538 (Die Ausgaben der Losunger auf M. Behaims &quot;Mappa Mundi&quot; 1494 und 1510)&quot; by J. Petz from the year 1886.</rdfs:comment>
         <rdfs:label xml:lang="de">Akteurzuweisung</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Alternative_Title -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Alternative_Title">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E35_Title"/>
     </owl:Class>
     
 
@@ -14674,6 +14702,12 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Audiofile">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E73_Information_Object"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst digitale Audiodateien, z.B. 
+- der Klang einer Geige &quot;violin.mp3&quot;. 
+- ein digitaler Audioguide-Track zu einem bestimmten Sammlungsobjekt</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises digital audio files, e.g. 
+- the Sound of a Violin &quot;violin.mp3&quot; 
+- a digital Audioguide-Track on a certain Collection Object</rdfs:comment>
         <rdfs:label xml:lang="de">Audiodatei</rdfs:label>
     </owl:Class>
     
@@ -14683,6 +14717,17 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E32_Authority_Document"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Dokumente, die eine Terminologie oder ein konzeptuelles System zur konsistenten Verwendung definieren. 
+
+Beispiele:
+- Die Gemeinsame Normdatei der Deutschen Nationalbibliothek (GND)
+- Der Getty Art and Architecture Thesaurus (AAT)</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class contains documents that define a terminology or conceptual system for consistent use.
+
+Examples: 
+- The Joint Standards File of the German National Library (GND)
+- The Getty Art and Architecture Thesaurus (AAT)</rdfs:comment>
+        <rdfs:label xml:lang="en">Authorityfile</rdfs:label>
         <rdfs:label xml:lang="de">Normdatei</rdfs:label>
     </owl:Class>
     
@@ -14692,6 +14737,9 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Authorityfile_ID">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E42_Identifier"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Zeichenketten oder Kodierungen, die Instanzen der Klasse Normdatei (nfdi4objects:Authorityfile) zugewiesen werden, um sie eindeutig und dauerhaft zu identifizieren.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises character strings or encodings that are assigned to instances of the standard file class (nfdi4objects:Authorityfile) in order to identify them uniquely and permanently.</rdfs:comment>
+        <rdfs:label xml:lang="de">Normdaten ID</rdfs:label>
     </owl:Class>
     
 
@@ -14718,6 +14766,8 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Comment">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Texte oder Stichpunkte in einer oder mehreren natürlichen Sprachen. Eine Instanz dieser Klasse dient dem näheren Verständnis eines Sachverhalts und liefert vertiefende oder erläuternde Informationen.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises texts or keywords in one or more natural languages. An instance of this class is used for a closer understanding of a subject and provides in-depth or explanatory information.</rdfs:comment>
         <rdfs:label xml:lang="de">Kommentar</rdfs:label>
     </owl:Class>
     
@@ -14736,6 +14786,14 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Corporate_Body">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E74_Group"/>
+        <rdfs:comment xml:lang="de">Instanzen dieser Klasse beschreiben soziale Strukturen, die mehrere Personen umfassen, wie z.B. eine Institution oder ein Verband, die ein gemeinsames Ziel verfolgen und sich von ihrer Umgebung abgrenzen, z.B. 
+- das Germanische Nationalmuseum in Nürnberg 
+- die Friedrich-Alexander-Universität Erlangen-Nürnberg 
+- die Klassik Stiftung Weimar</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class contains social structures that include several people, such as an institution or an association that share a collective goal and distinguish themselves from their environment, e.g. 
+- the Germanisches Nationalmuseum in Nuremberg 
+- the Friedrich-Alexander-University Erlangen-Nuremberg 
+- the Klassik Stiftung Weimar</rdfs:comment>
         <rdfs:label xml:lang="de">Körperschaft</rdfs:label>
     </owl:Class>
     
@@ -14745,6 +14803,14 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Corporate_Body_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
+        <rdfs:comment xml:lang="en">Instances of this class include types of corporate bodies (nfdi4objects:Corporate_Body), e.g. 
+- university
+- museum
+- research institute</rdfs:comment>
+        <rdfs:comment xml:lang="de">Instanzen dieser Klasse umfassen Arten der Klasse Körperschaft (nfdi4objects:Corporate_Body), z.B. 
+- Universität
+- Museum
+- Forschungsinstitut</rdfs:comment>
         <rdfs:label xml:lang="en">Corporate Body Type</rdfs:label>
         <rdfs:label xml:lang="de">Körperschaftsart</rdfs:label>
     </owl:Class>
@@ -14820,6 +14886,12 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Editing">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst die Aktionen der Dokumentation, Zeitpunkt der Vergabe einer Inventarnummer oder die Erarbeitung eines Zustandsprotokolls zu einem Objekt durch den Kurator oder einen Sammlungsmitarbeiter. 
+
+Beispiel: Eingabe eines Objektdatensatzes in die Datenbank der Sammlung durch Mitarbeiter XY.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises the documentation actions, the time at which an inventory number is assigned or the creation of a status log for an object by the curator or a collection employee. 
+
+Example: Entry of an object data record in the collection database by employee XY.</rdfs:comment>
         <rdfs:label xml:lang="de">Bearbeitung</rdfs:label>
     </owl:Class>
     
@@ -14829,16 +14901,20 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Encounter_Event">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Aktivitäten der Beobachtung (S27) (Substanz), bei denen ein Akteur (E39) auf eine Instanz von E18 Physical Thing trifft, die für die Aufgabe der Beobachtung relevant ist oder als potenziell relevant für eine Gemeinschaft (Identität) angesehen wird. Diese Beobachtung erzeugt Wissen über die Existenz des betreffenden Dings an einem bestimmten Ort in oder auf der umgebenden Materie. Dieses Wissen kann für die Gruppe von Menschen, zu der der Akteur gehört, neu sein. In diesem Fall würden wir von einer Entdeckung sprechen. Der Beobachter kann eine individuelle Identität des angetroffenen Dings erkennen oder zuordnen oder nur die Art in der zugehörigen Dokumentation oder dem Bericht als bemerkenswert ansehen. In der Archäologie ist es von besonderem Interesse, wenn ein Objekt „in situ“ gefunden wird, d.h. wenn seine Einbettung in die umgebende Materie die Vermutung stützt, dass das Objekt seit dem archäologisch relevanten Ablagerungsereignis nicht bewegt wurde. Die umgebende Materie mit der relativen Position des Objekts darin sowie die absolute Position und der Zeitpunkt der Beobachtung können aufgezeichnet werden, um Rückschlüsse auf die Geschichte des Objekts zu ermöglichen. In der Biologie können zusätzliche Parameter erfasst werden - wie die Art des Ökosystems, ob das biologische Individuum die Beobachtung überlebt hat, welche Detektions- oder Fanggeräte verwendet wurden oder ob das Begegnungsereignis die Entdeckung einer neuen biologischen Art („Taxon“) ermöglichte.
+
+Beispiele:
+der Fund eines vollständigen Skeletts in situ durch Nikolaos Stampolidis in Eleutherna während der archäologischen Ausgrabungen der Universität Kreta im Jahr 2007 (Bonn-Muller, 2010)
+die Entdeckung von Lagocephalos_Sceleratus mit dem Trawler 419 im Mittelmeer in der ersten Augustwoche 2014 (S19) (Bekiari et al., 2014)
+der Fund des Marmorfußbodens der Villa der Papyri in Herculaneum beim Ausheben eines Brunnens im Jahr 1750 (Sider, 1990)</rdfs:comment>
         <rdfs:comment>Equals S19 Encounter Event in CRMSci</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises activities of Observation (S27) (substance) where an Actor (E39) encounters an instance of E18 Physical Thing, of a kind relevant for the mission of the observation or regarded as potentially relevant for some community (identity). This observation produces knowledge about the existence of the respective thing at particular place in, or on, surrounding matter. This knowledge may be new to the group of people the actor belongs to. In that case, we would talk about discovery. The observer may recognize or assign an individual identity of the thing encountered, or regard only the type as noteworthy in the associated documentation or report. In Archaeology, there is a particular interest if an object is found “in situ”, i.e., if its embedding in the surrounding matter supports the assumption that the object was not moved since the archaeologically relevant deposition event. The surrounding matter with the relative position of the object in it, as well as the absolute position and time of the observation may be recorded to enable inferences about the history of the object. In Biology, additional parameters may be recorded – like the kind of ecosystem, if the biological individual survives the observation, what detection or catching devices have been used, or if the encounter event supported the detection of a new biological kind (“taxon”). 
+
+Examples: 
+the finding, by Nikolaos Stampolidis, of a complete skeleton, in situ, at the site of Eleutherna during the archaeological excavation carried out by the University of Crete in 2007 (Bonn-Muller, 2010) 
+the detection of Lagocephalos_Sceleratus was carried out with the trawler 419 in the Mediteranean sea, during the first week of August 2014 (S19) (Bekiari et al., 2014) 
+the encounter of the marble floor of the Villa of the Papyri in Herculaneum during the digging of a well in 1750 (Sider, 1990)</rdfs:comment>
         <rdfs:label xml:lang="de">Begegnung</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Environment -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Environment">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E27_Site"/>
     </owl:Class>
     
 
@@ -14847,8 +14923,11 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Excavation">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
-        <rdfs:comment xml:lang="en">Equals A9 Archaeological Excavation in CRMArchaeo</rdfs:comment>
+        <rdfs:comment xml:lang="de">Diese Klasse beschreibt das allgemeine Konzept der archäologischen Ausgrabung als koordinierte Reihe von Ausgrabungseinheiten (A1), die in einem Gebiet durchgeführt werden, das als Teil eines breiteren topografischen, ländlichen, städtischen oder monumentalen Kontextes betrachtet wird. Eine archäologische Ausgrabung findet typischerweise in einem vordefinierten geografischen Gebiet statt, das nach einer Untersuchungskampagne oder auf der Grundlage von Quelleninterpretationen festgelegt wurde oder das durch eine andere Aktivität belegt ist (wie z. B. vorbereitende Arbeiten für den Städtebau, Rettungsarchäologie und ähnliches), und wird mit spezifischen Genehmigungen einer zuständigen Behörde durchgeführt. Für jede archäologische Ausgrabung wird in der Regel von der gleichen Behörde eine spezifische Kennung vergeben. Die Tätigkeiten beschränken sich nicht nur auf die Entnahme von Material, sondern umfassen auch Geschwisteraktivitäten, die während des gesamten Prozesses stattfinden und der Beobachtung und/oder Konsolidierung der ausgegrabenen Schichten dienen. Die archäologische Ausgrabung steht in der Regel unter der Verantwortung eines offiziell benannten Koordinators, der rechtlich und wissenschaftlich für alle in den einzelnen Grabungseinheiten durchgeführten Tätigkeiten verantwortlich ist und auch für die Dokumentation des gesamten Prozesses zuständig ist.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class describes the general concept of archaeological escavation intended as a coordinated set of excavation process units (A1) performed on an area considered as part of a broader topographical, rural, urban, or monumental context. An archaeological excavation typically takes place in a predefined geographic area specifically defined after an investigation campaign or based on interpretation of sources, or evidenced by a different activity (such as: preparatory works for urban construction, rescue archaeology and similar) and is carried out according with specific authorisations provided by a competent authority. A specific identifier for each archaeological excavation is usually assigned by the same authority. The set of activities is not limited to matter removals but also comprises siblings activities, happening throughout the whole process, intended for observation and/or consolidation of the excavated strata. The archaeological excavation is usually under the responsibility of a coordinator, officially designated, which is legally and scientifically responsible for all the activities carried out within each of the excavation process units and is also responsible for the documentation of the whole process.</rdfs:comment>
         <rdfs:label xml:lang="de">Grabung</rdfs:label>
+        <rdfs:seeAlso xml:lang="de">A9 Archaeological Excavation in CRMArchaeo</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">A9 Archaeological Excavation in CRMArchaeo</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -14872,19 +14951,14 @@ In First Order Logic:
     
 
 
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Existence -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Existence">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event"/>
-        <rdfs:label xml:lang="de">Existenzzeitraum</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://nfdi4objects.wisski.data.fau.de/ontology/File -->
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/File">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E73_Information_Object"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst digitale Dateien, die Instanzen von E1 CRM Entity dokumentieren oder darstellen, z.B.
+- eine pdf-, eine Word-, eine XML-Datei, .....</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises digital files that document or represent instances of E1 CRM Entity, e.g.
+- a pdf-, a word-, an xml-file, ...</rdfs:comment>
         <rdfs:label xml:lang="de">Datei</rdfs:label>
     </owl:Class>
     
@@ -14912,6 +14986,13 @@ In First Order Logic:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Geo_Coordinates">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E42_Identifier"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst die numerische Information, mit der eine bestimmte Instanz der Klasse E53_Place innerhalb räumlicher Schemata lokalisiert werden kann. Eine Instanz der Klasse Geo-Koordinaten beschreibt die Lage eines Punktes auf der Erde in Form von Kugelkoordinaten bzw. GPS-Koordinaten. 
+
+Beispiel: Die Stadt Nürnberg hat die Koordinaten 49° 27′ N , 11° 5′ O.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class contains the numeric information with which a particular instance of the class E53_Place can be located within spatial schemata. An instance of class Geo-Coordinates describes the position of a point on earth in the form of spherical coordinates or GPS coordinates.
+
+Example: The city of Nuremberg has the coordinates 49° 27&apos; N, 11° 5&apos; O.</rdfs:comment>
+        <rdfs:label xml:lang="de">Geo-Koordinaten</rdfs:label>
     </owl:Class>
     
 
@@ -14935,6 +15016,8 @@ Examples:
 - Tethys</rdfs:comment>
         <rdfs:label xml:lang="en">Geographical Place</rdfs:label>
         <rdfs:label xml:lang="de">Geographischer Ort</rdfs:label>
+        <rdfs:seeAlso xml:lang="de">SP6 Declarative Place in CRMgeo</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">SP6 Declarative Place in CRMgeo</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -14943,6 +15026,19 @@ Examples:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Iconographic_Motive">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E36_Visual_Item"/>
+        <rdfs:comment xml:lang="en">Instances of the Iconographic Motif class include motifs or symbols that are attached to instances of the Object class (nfdi4objects:Object) and are assigned or interpreted in the context of iconographic assignments (nfdi4objects:Iconography_Assignment). The iconographic description or the assignment of iconographic motifs is a method of art history. Iconographic motifs are usually assigned in the context of research projects (nfdi4objects:Research_Activity) or object documentation (nfdi4objects:Object_Documentation). 
+Iconclass or Getty Iconography Authority is generally used as the Authorityfile (nfdi4objects:Authorityfile) for the standardized referencing of the respective iconographic motifs.
+
+
+Example:
+The motive of St. George, on which the statue &quot;The Great Elector Frederick William as St. George&quot; is based, which is now in the Sculpture Collection and Museum of Byzantine Art of the National Museums in Berlin under inventory number 856.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Instanzen der Klasse Ikonografisches Motiv umfassen Motive oder Symbole, die auf Instanzen der Klasse Objekt (nfdi4objects:Object) angebracht sind, und im Kontext von ikonografischen Zuweisungen (nfdi4objects:Iconography_Assignment) zugewiesen oder gedeutet werden. Die ikonografische Beschreibung bzw. die Zuweisung ikonografischer Motive ist eine Methode der Kunstgeschichte. Die Zuweisung ikonografischer Motive erfolgt in der Regel im Kontext von Forschungsprojekten (nfdi4objects:Research_Activity) oder bei der Objektdokumentation (nfdi4objects:Object_Documentation).
+Als Normdatei (nfdi4objects:Authorityfile) zur standardisierten Referenzierung der jeweiligen ikonografischen Motive wird in der Regel Iconclass oder Getty Iconography Authority verwendet.
+
+
+Beispiel:
+Das Motiv des Heiligen Georg, das der Statue &quot;Der Große Kurfürst Friedrich Wilhelm als heiliger Georg&quot; zugrunde liegt, die sich heute unter der Inventarnummer 856 in der Skulpturensammlung und Museum für Byzantinische Kunst der Staatlichen Museen zu Berlin befindet.</rdfs:comment>
+        <rdfs:label xml:lang="de">Ikonografisches Motiv</rdfs:label>
     </owl:Class>
     
 
@@ -14951,6 +15047,14 @@ Examples:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Iconography_Assignment">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E13_Attribute_Assignment"/>
+        <rdfs:comment xml:lang="en">Instances of the Iconography Assignment class comprise activities in which one or more iconographic motives are assigned to instances of Object as part of a scientific discussion. The iconographic description or the assignment of iconographic motives is a method of art history. Iconographic motives are usually assigned in the context of research projects or object documentation. Iconclass or Getty Iconography Authority is generally used as the standard file for the standardized referencing of the respective iconographic motifs.
+Example:
+The assignment of the motive of St. George in the context of object documentation for the statue &quot;The Great Elector Frederick William as St. George&quot;, which is now in the Sculpture Collection and Museum of Byzantine Art of the National Museums in Berlin under inventory number 856.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Instanzen der Klasse Ikonografiezuweisung umfassen Aktivitäten, bei der Instanzen der Klasse Objekt im Rahmen einer wissenschaftlichen Auseinandersetzung ein oder mehrere ikonografische Motive zugewiesen werden. Die ikonografische Beschreibung bzw. die Zuweisung ikonografischer Motive ist eine Methode der Kunstgeschichte. Die Zuweisung ikonografischer Motive erfolgt in der Regel im Kontext von Forschungsprojekten oder bei der Objektdokumentation.
+Als Normdatei zur standardisierten Referenzierung der jeweiligen ikonografischen Motive wird in der Regel Iconclass oder Getty Iconography Authority verwendet.
+
+Beispiel:
+Die Zuweisung des Motivs des Heiligen Georg im Kontext der Objektdokumentation zu der Statue &quot;Der Große Kurfürst Friedrich Wilhelm als heiliger Georg&quot;, die sich heute unter der Inventarnummer 856 in der Skulpturensammlung und Museum für Byzantinische Kunst der Staatlichen Museen zu Berlin befindet.</rdfs:comment>
         <rdfs:label xml:lang="de">Ikonografiezuweisung</rdfs:label>
     </owl:Class>
     
@@ -14960,6 +15064,17 @@ Examples:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Identifier">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E42_Identifier"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Zeichenketten oder Kodierungen, die Instanzen der Klasse Objekt (nfdi4objects:Object) zugewiesen werden, um sie eindeutig und dauerhaft innerhalb der Sammlung von Objektbiografien zu identifizieren.Sie ersetzt nicht die URI eines Objekts im Wissensgraphen.
+
+Beispiele: 
+- Behaim Globus, GNM WI1826
+- Exemplar aus Goethes Paläontologischer Sammlung, KSW GNG 02560</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises character strings or encodings that are assigned to instances of the Object class (nfdi4objects:Object) to identify them uniquely and permanently within the collection of object biographies; it does not replace the URI of an object in the knowledge graph.
+
+Examples:
+- Behaim globe, GNM WI1826
+- Specimen from Goethe&apos;s palaeontological collection, KSW GNG 02560</rdfs:comment>
+        <rdfs:label xml:lang="de">Identifikator</rdfs:label>
     </owl:Class>
     
 
@@ -14968,6 +15083,9 @@ Examples:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Image">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E36_Visual_Item"/>
+        <rdfs:comment xml:lang="en">An instance of the Image class visually represents instances of other classes, such as Object (nfdi4objects:Object) or E21 Person, which are usually digital photographs or scans with the file extensions TIFF or PNG. Example: The digital image represents the &quot;Behaim globe&quot; (object) and can be found at the URL https://... (URL).</rdfs:comment>
+        <rdfs:comment xml:lang="de">Eine Instanz der Klasse Bild repräsentiert visuell Instanzen anderer Klassen, wie beispielsweise Objekt (nfdi4objects:Object) oder E21 Person. Dabei handelt es sich üblicherweise um digitale Fotografien oder Scans mit den Dateiendungen TIFF oder PNG. Beispiel: Die digitale Aufnahme (Image) stellt den &quot;Behaim Globus&quot; (Objekt) dar und ist unter der URL https://… (URL) zu finden.</rdfs:comment>
+        <rdfs:label xml:lang="de">Bild</rdfs:label>
     </owl:Class>
     
 
@@ -14985,24 +15103,17 @@ Examples:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Inventory_Number">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E42_Identifier"/>
-    </owl:Class>
-    
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Zeichenketten oder Kodierungen, die Instanzen der Klasse Objekt (nfdi4objects:Object) zugewiesen werden, um sie eindeutig und dauerhaft innerhalb des Sammlungskontexts zu identifizieren. Inventarnummern werden im Kontext von Instanzen der Klasse Identifikatorzuweisung (crm:E15_Identifier_Assignment) zugewiesen. Identifikatorzuweisungen wiederum finden innerhalb von Objektdokumentationen (nfdi4objects:Object_Documenttion) statt, die ein wesentliches Ereignis innerhalb der Museums-/Sammlungszugehörigkeit (nfdi4objects:Museum_or_Collection_Affiliation) darstellen.
 
+Beispiele:
+- GNM WI1826
+- GNG 02560</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises character strings or encodings that are assigned to instances of the Object class (nfdi4objects:Object) in order to identify them uniquely and permanently within the collection context. Inventory numbers are assigned in the context of instances of the class Identifier Assignment (crm:E15_Identifier_Assignment). Identifier assignments in turn take place within object documentations (nfdi4objects:Object_Documenttion), which represent an essential event within the museum/collection affiliation (nfdi4objects:Museum_or_Collection_Affiliation).
 
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Keyword -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Keyword">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
-        <rdfs:label xml:lang="de">Schlagwort</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Licence -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Licence">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E30_Right"/>
-        <rdfs:label xml:lang="de">Lizenz</rdfs:label>
+Examples:
+- GNM WI1826
+- GNG 02560</rdfs:comment>
+        <rdfs:label xml:lang="de">Inventarnummer</rdfs:label>
     </owl:Class>
     
 
@@ -15011,42 +15122,11 @@ Examples:
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Licence_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst die Arten von Lizenzen, die für die (Wieder-)Verwendung von Instanzen von Bild (nfdi4objects:Image) oder für die Metadaten von Datensätzen (nfdi4objects:Dataset) von Instanzen von Objekt (nfdi4objects:Object) durch Dritte angegeben sind, 
+z.B. Creative Commons Lizenzen wie CC-BY-SA 3.0.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises the types of licences specified for the (re-)use of instances of Image (nfdi4objects:Image) or for the metadata of records (nfdi4objects:Dataset) of instances of Object (nfdi4objects:Object) by third parties, 
+e.g. Creative Commons Licences like CC-BY-SA 3.0.</rdfs:comment>
         <rdfs:label xml:lang="de">Lizenzart</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document"/>
-        <rdfs:label xml:lang="de">Literatur</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E31_Document"/>
-        <owl:incompatibleWith xml:lang="de">Literatur_Sektion</owl:incompatibleWith>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section_ID -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Section_ID">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E42_Identifier"/>
-    </owl:Class>
-    
-
-
-    <!-- https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Type -->
-
-    <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Literature_Type">
-        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
-        <rdfs:label xml:lang="de">Literaturart</rdfs:label>
     </owl:Class>
     
 
@@ -15073,6 +15153,8 @@ Beispiel:
 geografische Ort sein könnte.</rdfs:comment>
         <rdfs:label xml:lang="en">Location</rdfs:label>
         <rdfs:label xml:lang="de">Lokation</rdfs:label>
+        <rdfs:seeAlso xml:lang="de">SP2 Phenomenal Place in CRMgeo</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">SP2 Phenomenal Place in CRMgeo</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -15124,6 +15206,18 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Museum_or_Collection_Affiliation">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E5_Event"/>
+        <rdfs:comment xml:lang="de">Diese Klasse beschreibt die Museums- oder Sammlungszugehörigkeit von Instanzen der Klasse Objekt (nfdi4objects:Object) in der Objektbiografie und bildet damit ein zentrales Ereignis der Lebensgeschichte von Objekten. Mit dem Prozess der Musealisierung werden materielle Hinterlassenschaften der Menschheits- und Umweltgeschichte erst zu Objekten, da sie vorher einen konkreten Nutzungskontext hatten und mit der Aufnahme in eine Sammlung dem ökonomischen Kreislauf entnommen werden und eine neue Bedeutung erlangen. Sie werden zu sog. Semiophoren (vgl. Pomian, Krzysztof: Ursprung des Museums. Vom Sammeln, 1987.), die einerseits Materialität besitzen, andererseits mit Bedeutung versehen werden bzw. etwas repräsentieren, aufgrund dessen sie erst zu einer Sammlung hinzugefügt wurden.
+Die Museums- oder Sammlungszugehörigkeit beginnt mit der Akquisition (crm:E8_Acquisition), bei der das Objekt rechtlich erworben wird, gefolgt vom physischen Zugang (nfdi4objects:Accession) in die Räumlichkeiten der Institution. Bei historischen Sammlungskonktexten können diese Vorgänge oft nicht genau bestimmt werden. Nicht selten ist auch die rechtliche Situation der Akquise nicht mehr genau rekonstruierbar. Eine Museums- oder Sammlungszugehörigkeit endet, wenn das Objekt vom Museum entsammelt oder restituiert wird.
+
+Beispiele:
+Die Zugehörigkeit des Steins von Rosette zur Sammlung des British Museum
+Die Zugehörigkeit des Behaim Globus zur Sammlung des Germanischen Nationalmuseum in Nürnberg</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class describes the museum or collection affiliation of instances of the object class (nfdi4objects:Object) in the object biography and thus forms a central event in the life history of objects. With the process of musealization, material legacies of human and environmental history first become objects, as they previously had a concrete context of use and are removed from the economic cycle and acquire a new meaning when they are included in a collection. They become so-called semiophores (cf. Pomian, Krzysztof: Ursprung des Museums. Vom Sammeln, 1987.), which on the one hand possess materiality and on the other are given meaning or represent something on the basis of which they were first added to a collection.
+The museum or collection affiliation begins with the acquisition (crm:E8_Acquisition), in which the object is legally acquired, followed by physical access (nfdi4objects:Accession) to the institution&apos;s premises. In the case of historical collection context texts, these processes can often not be precisely determined. It is also not uncommon for the legal situation of the acquisition to no longer be precisely reconstructable. Museum or collection affiliation ends when the object is disposed of or restituted by the museum.
+
+Examples:
+The affiliation of the Rosetta Stone to the collection of the British Museum
+The Behaim Globe belongs to the collection of the Germanisches Nationalmuseum in Nuremberg</rdfs:comment>
         <rdfs:label xml:lang="de">Museums_Sammlungszugehörigkeit</rdfs:label>
     </owl:Class>
     
@@ -15133,8 +15227,18 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E22_Human-Made_Object"/>
-        <rdfs:comment xml:lang="de">Diese Klasse umfasst konkrete materielle Hinterlassenschaften der Menschheits- und Umweltgeschichte, die von menschlicher Aktivität bewusst zum Bestand einer Sammlung (E78 Curated Holding) hinzugefügt wurden und kuratorisch von einem oder mehreren Akteuren (E39 Actor) betreut werden.</rdfs:comment>
-        <rdfs:comment xml:lang="en">This class includes concrete material remains of human and environmental history, that have intentionally been added by human activity to the inventory of a collection (E78 Curated Holding) and curated by one or more instances of E39 Actor over time.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst materielle Hinterlassenschaften der Menschheits- und Umweltgeschichte, die von menschlicher Aktivität bewusst zum Bestand einer Sammlung (E78 Curated Holding) hinzugefügt wurden und von einem oder mehreren Akteuren (E39 Actor) kuratorisch betreut werden.
+
+Beispiele:
+
+Der Behaim Globus von 1492/94, der sich heute im Germanischen Nationalmuseum in Nürnberg befindet
+Der Stein von Rosette, der in der hellenistischen Zeit gemeißelt wurde, 1799 im Kontext napoleonischer Feldzüge geraubt und sich seit 1802 in der Sammlung des British Museum in London befindet</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class includes the material remains of human history that have been intentionally added by human activity to the inventory of a collection and curated by one or more instances of E39_Actor over time.
+
+Examples:
+
+The Behaim Globe from 1492/94, which is now in the Germanisches Nationalmuseum in Nuremberg
+The Rosetta Stone, carved in the Hellenistic period, looted in 1799 in the context of Napoleonic campaigns and in the collection of the British Museum in London since 1802</rdfs:comment>
         <rdfs:label xml:lang="en">Object</rdfs:label>
         <rdfs:label xml:lang="de">Objekt</rdfs:label>
     </owl:Class>
@@ -15162,6 +15266,17 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Object_Documentation">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Aktivitäten, bei denen Instanzen der Klasse Objekt (nfdi4objects:Object) dokumentiert werden. Die Objektdokumentation stellt ein wesentliches Ereignis innerhalb der Museums-/Sammlungszugehörigkeit (nfdi4objects:Museum_or_Collection_Affiliation) eines Objekts dar. 
+Dabei umfasst die Objektdokumentation etwa die Inventarnummerzuweisung (crm:E15_Identifier_Assignment), die Bezeichnungszuweisung (nfdi4objects:Appellation_Assignment), die Feststellung von Maßen (crm:E16_Measurement), bildgebende Verfahren (nfdi4objects:Imaging_Procedure).
+
+Beispiele:
+- die Zuweisung der Inventarnummer WI1826 zum Behaim Globus im Germanischen Nationalmuseum Nürnberg
+- die Anfertigung von 92 Schwarzweiß-Glasplattennegativen vom Behaim Globus 1939 durch den Fotografen Bruno Blum.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises activities in which instances of the Object class (nfdi4objects:Object) are documented. The object documentation represents an essential event within the museum/collection affiliation (nfdi4objects:Museum_or_Collection_Affiliation) of an object. The object documentation includes the assignment of inventory numbers (crm:E15_Identifier_Assignment), the assignment of designations (nfdi4objects:Appellation_Assignment), the determination of measurements (crm:E16_Measurement), imaging procedures (nfdi4objects:Imaging_Procedure).
+
+Examples:
+- the assignment of the inventory number WI1826 to the Behaim Globe in the Germanisches Nationalmuseum Nuremberg
+- the production of 92 black and white glass plate negatives of the Behaim Globe in 1939 by the photographer Bruno Blum.</rdfs:comment>
         <rdfs:label>Objektdokumentation</rdfs:label>
     </owl:Class>
     
@@ -15253,7 +15368,7 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Source">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E22_Human-Made_Object"/>
-        <rdfs:comment xml:lang="de">Diese Klasse umfasst Quellmaterialien wie Schrift- und Bildgut, die Instanzen der Klasse Objekt und die damit verbundenen Kontexte und Ereignisse dokumentieren.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Quellenmaterialien wie Schrift- und Bildgut, die Instanzen der Klasse Objekt und die damit verbundenen Kontexte und Ereignisse dokumentieren.</rdfs:comment>
         <rdfs:comment xml:lang="en">This class includes sources such as written and pictorial material that document instances of the Object class and the associated contexts and events.</rdfs:comment>
         <rdfs:label xml:lang="de">Quellenträger</rdfs:label>
         <rdfs:label xml:lang="en">Source</rdfs:label>
@@ -15366,6 +15481,8 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/URL">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E42_Identifier"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst die Identifikationsbezeichnung URL (Uniform Resource Locator), um eine Ressource im Computernetzwerk zu identifizieren und zu lokalisieren.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises the identifiers URL (Uniform Resource Locator) to identify and locate a resource on the computer network.</rdfs:comment>
     </owl:Class>
     
 
@@ -15374,6 +15491,16 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Usage">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E7_Activity"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst Handlungen, die den Umgang, die Bedeutung und die Funktion von Instanzen der Klasse Objekt (nfdi4objects:Object) betreffen, bevor diese dem ökonomischen Kreislauf entzogen wurden und in eine Sammlung oder einen Museumskontext (nfdi4objects:Museum_or_Collection_Affiliation) eingegangen sind.
+
+Beispiele:
+- Die Nutzung des Behaim Globus als Repräsentationsobjekt, während er im Nürnberger Rathaus aufgestellt war
+- Die Nutzung des Idia-Elfenbeinanhängers als Schutzobjekt bei Zeremonien im Königreich Benin</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises actions that affect the handling, meaning and function of instances of the Object class (nfdi4objects:Object) before they have been removed from the economic cycle and entered into a collection or a museum context (nfdi4objects:Museum_or_Collection_Affiliation).
+
+Examples:
+- The use of the Behaim globe as a representational object while it was on display in Nuremberg City Hall
+- The use of the Idia ivory pendant as a protective object during ceremonies in the Kingdom of Benin</rdfs:comment>
         <rdfs:label xml:lang="de">Benutzung</rdfs:label>
     </owl:Class>
     
@@ -15383,6 +15510,17 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/UsageType_Assignment">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E17_Type_Assignment"/>
+        <rdfs:comment xml:lang="de">Diese Klasse beschreibt die Zuweisung der Nutzungsart (nfdi4objects:usage_Type) von Instanzen der Klasse Objekt (nfdi4objects:Object) im Kontext eines Nutzungsereignisses (nfdi4objects:Usage), das stattfand bevor ein Objekt dem ökonomischen Kreislauf entzogen wurde und in eine Sammlung oder einen Museumskontext (nfdi4objects:Museum_or_Collection_Affiliation) eingegangen ist. 
+
+Beispiel:
+- Die Zuweisung der Nutzungsart &quot;Repräsentationsobjekt&quot; für den Behaim Globus, während er im Nürnberger Rathaus aufgestellt war.
+- Die Zuweisung der Nutzungsart &quot;Schutzobjekt bei Zeremonien&quot; für den Idia-Elfenbeinanhänger</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class describes the assignment of the usage type (nfdi4objects:usage_Type) of instances of the Object class (nfdi4objects:Object) in the context of a usage event (nfdi4objects:Usage) that took place before an object was withdrawn from the economic cycle and entered a collection or a museum context (nfdi4objects:Museum_or_Collection_Affiliation).
+
+Example:
+- The assignment of the usage type &quot;Representation object&quot; for the Behaim globe while it was on display in Nuremberg City Hall.
+- The assignment of the usage type &quot;object of protection during ceremonies&quot; for the Idia ivory pendant</rdfs:comment>
+        <rdfs:label xml:lang="de">Zuweisung einer Nutzungsart</rdfs:label>
     </owl:Class>
     
 
@@ -15391,6 +15529,17 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Usage_Type">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E55_Type"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst alle Arten von Nutzungsmöglichkeiten und Verwendungszwecken einer Instanz der Klasse Objekt (nfdi4objects:Object), insb. bevor sie dem ökonomischen Kreislauf entzogen und in eine Sammlung oder einen Museumskontext eingingen. 
+
+
+Beispiele: 
+- Die Nutzung des Behaim Globus als Repräsentationsobjekt im Nürnberger Rathaus
+- Die Nutzung des Idia-Elfenbeinanhängers als Schutzobjekt bei Zeremonien im Königreich Benin</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises all types of possible uses and purposes of an instance of the Object class (nfdi4objects:Object), in particular before they were removed from the economic cycle and entered a collection or museum context.
+
+Examples:
+- The use of the Behaim globe as a representative object in Nuremberg City Hall
+- The use of the Idia ivory pendant as a protective object in ceremonies in the Kingdom of Benin</rdfs:comment>
         <rdfs:label xml:lang="de">Nutzungsart</rdfs:label>
     </owl:Class>
     
@@ -15400,6 +15549,12 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/Videofile">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E73_Information_Object"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst digitale Videodateien, z.B. 
+- ein Video das zeigt, wie eine Geige gespielt wird, &quot;violin.mp4&quot;. 
+- ein Video auf YouTube, das jemanden zeigt, der ein Klavier aus der Sammlung Rück spielt</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises digital video files, e.g. 
+- the video that shows how a violin is being played &quot;violin.mp4&quot; 
+- a video of a man playing a piano from the Rück-Collection on YouTube</rdfs:comment>
         <rdfs:label xml:lang="de">Videodatei</rdfs:label>
     </owl:Class>
     
@@ -15409,6 +15564,12 @@ geografische Ort sein könnte.</rdfs:comment>
 
     <owl:Class rdf:about="https://nfdi4objects.wisski.data.fau.de/ontology/3D_Model">
         <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/7.1.3/E73_Information_Object"/>
+        <rdfs:comment xml:lang="de">Diese Klasse umfasst digitale 3D-Modelle, die Repräsentationen von Instanzen der Klasse E71 Human-Made Thing darstellen, z.B. 
+- das 3D-Modell der Kathedrale von Notre Dame in Paris 
+- das 3D-Modell eines Hammerflügels</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class comprises digital 3D-Models that represent instances of E71 Human-Made Thing, e.g. 
+- the 3D-model of the Cathedral of Notre Dame in Paris 
+- the 3D-model of a Hammerwing</rdfs:comment>
         <rdfs:label xml:lang="de">3D_Modell</rdfs:label>
     </owl:Class>
 </rdf:RDF>
