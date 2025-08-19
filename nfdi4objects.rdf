@@ -14598,6 +14598,14 @@ In First Order Logic:
     
 
 
+    <!-- http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation -->
+
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation">
+        <owl:equivalentClass rdf:resource="https://nfdi4objects.wisski.data.fau.de/ontology/Excavation"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event -->
 
     <rdf:Description rdf:about="http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event">
