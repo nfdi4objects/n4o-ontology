@@ -13,5 +13,5 @@ Dieses Repository beinhaltet:
 
 Publikationen in NFDI4Objects finden sich hier bei [Zenodo](https://zenodo.org/communities/nfdi4objects/records?q=&l=list&p=1&s=10&sort=newest).
 
-Neben der hier dokumentieren N4O OO gibt es unter <https://nfdi4objects.github.io/crm-rdf-ap/> ein Anwendungsprofil von CIDOC-CRM in RDF für den NFDI4Objects Knowledge Graphen. Die genaue Abstimmung steht noch aus.
+Neben der hier dokumentierten N4O OO gibt es unter <https://nfdi4objects.github.io/crm-rdf-ap/> ein Anwendungsprofil von CIDOC-CRM in RDF für den NFDI4Objects Knowledge Graphen. Die genaue Abstimmung steht noch aus.
 
