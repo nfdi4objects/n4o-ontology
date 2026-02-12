@@ -2,4 +2,4 @@ Export des Triplestore Repositories, das die in WissKI erfassten Objektbiografie
 Der Export wird angeboten in nq, jsonld, rdf, nt, rj, ttl.
 Die Daten basieren auf der n4o-ontology und dem Datenmodell für Objektbiografien, die hier abgelegt sind.
 
-Lizenz der Daten: CC-0
+Lizenz der Daten: CC-By 4.0
